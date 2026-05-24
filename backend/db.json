@@ -7,16 +7,8 @@
       "role": "admin",
       "displayName": "Quản Trị Viên",
       "avatar": "",
-      "createdAt": "2026-01-01T00:00:00Z"
-    },
-    {
-      "email": "mixigmaing@gmail.com",
-      "password": "$2a$10$ow9.EjSIFOvqLnXmETijp.gTQMUvDcgIHlBEyw3ubOHw.zoaAWdku",
-      "displayName": "mixi_Quản Trị Viên",
-      "role": "admin",
-      "avatar": "",
-      "createdAt": "2026-05-17T01:30:04.226Z",
-      "id": 2
+      "createdAt": "2026-01-01T00:00:00Z",
+      "coins": 100
     },
     {
       "email": "quantricomic@gmail.com",
@@ -25,7 +17,8 @@
       "role": "admin",
       "avatar": "",
       "createdAt": "2026-05-21T13:33:59.069Z",
-      "id": 3
+      "id": 3,
+      "coins": 100
     },
     {
       "email": "buid17150@gmail.com",
@@ -34,7 +27,18 @@
       "role": "admin",
       "avatar": "",
       "createdAt": "2026-05-24T14:47:07.425Z",
-      "id": 4
+      "id": 4,
+      "coins": 100
+    },
+    {
+      "email": "mixigaming@gmail.com",
+      "password": "$2a$10$47fsQmrjr7IqBnJlzlkZy.sver58HGxwTULvIxBbpBajA6IXCm5JC",
+      "displayName": "mixigaming",
+      "role": "admin",
+      "avatar": "",
+      "createdAt": "2026-05-24T15:29:43.047Z",
+      "id": 5,
+      "coins": 100
     }
   ],
   "comics": [
@@ -54,9 +58,11 @@
       "status": "ongoing",
       "rating": 4.5,
       "views": 125000,
-      "totalChapters": 3,
+      "totalChapters": 83,
       "createdAt": "2026-01-15T10:00:00Z",
-      "updatedAt": "2026-05-10T08:00:00Z"
+      "updatedAt": "2026-05-10T08:00:00Z",
+      "approved": true,
+      "uploaderId": null
     },
     {
       "id": 2,
@@ -74,9 +80,11 @@
       "status": "ongoing",
       "rating": 4.8,
       "views": 250000,
-      "totalChapters": 2,
+      "totalChapters": 82,
       "createdAt": "2026-02-01T10:00:00Z",
-      "updatedAt": "2026-05-09T12:00:00Z"
+      "updatedAt": "2026-05-09T12:00:00Z",
+      "approved": true,
+      "uploaderId": null
     },
     {
       "id": 3,
@@ -95,9 +103,11 @@
       "status": "ongoing",
       "rating": 4.2,
       "views": 589000,
-      "totalChapters": 2,
+      "totalChapters": 82,
       "createdAt": "2026-01-20T10:00:00Z",
-      "updatedAt": "2026-04-15T08:00:00Z"
+      "updatedAt": "2026-04-15T08:00:00Z",
+      "approved": true,
+      "uploaderId": null
     },
     {
       "id": 4,
@@ -115,9 +125,11 @@
       "status": "ongoing",
       "rating": 4.6,
       "views": 178000,
-      "totalChapters": 1,
+      "totalChapters": 81,
       "createdAt": "2026-03-10T10:00:00Z",
-      "updatedAt": "2026-05-08T14:00:00Z"
+      "updatedAt": "2026-05-08T14:00:00Z",
+      "approved": true,
+      "uploaderId": null
     },
     {
       "id": 5,
@@ -135,9 +147,11 @@
       "status": "ongoing",
       "rating": 4.3,
       "views": 67000,
-      "totalChapters": 2,
+      "totalChapters": 82,
       "createdAt": "2026-02-14T10:00:00Z",
-      "updatedAt": "2026-04-01T08:00:00Z"
+      "updatedAt": "2026-04-01T08:00:00Z",
+      "approved": true,
+      "uploaderId": null
     },
     {
       "id": 6,
@@ -155,9 +169,11 @@
       "status": "completed",
       "rating": 4.8,
       "views": 945000,
-      "totalChapters": 1,
+      "totalChapters": 81,
       "createdAt": "2026-04-01T10:00:00Z",
-      "updatedAt": "2026-05-07T16:00:00Z"
+      "updatedAt": "2026-05-07T16:00:00Z",
+      "approved": true,
+      "uploaderId": null
     },
     {
       "id": 7,
@@ -173,9 +189,11 @@
       "status": "ongoing",
       "rating": 5,
       "views": 0,
-      "totalChapters": 0,
+      "totalChapters": 80,
       "createdAt": "2026-05-24T14:50:01.175Z",
-      "updatedAt": "2026-05-24T14:50:01.175Z"
+      "updatedAt": "2026-05-24T14:50:01.175Z",
+      "approved": true,
+      "uploaderId": null
     }
   ],
   "chapters": [
@@ -183,11 +201,11 @@
       "id": 1,
       "comicId": 1,
       "chapterNumber": 1,
-      "title": "Khởi Đầu — Sức Mạnh Thức Tỉnh",
+      "title": "",
       "pages": [
-        "assets/images/chapters/1/page1.jpg",
-        "assets/images/chapters/1/page2.jpg",
-        "assets/images/chapters/1/page3.jpg"
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
       ],
       "createdAt": "2026-01-20T10:00:00Z"
     },
@@ -195,11 +213,11 @@
       "id": 2,
       "comicId": 1,
       "chapterNumber": 2,
-      "title": "Kẻ Thù Đầu Tiên",
+      "title": "",
       "pages": [
-        "assets/images/chapters/1/page4.jpg",
-        "assets/images/chapters/1/page5.jpg",
-        "assets/images/chapters/1/page6.jpg"
+        "assets/images/Comics/The_Beginning_After_The_End/page4.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page5.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page6.jpg"
       ],
       "createdAt": "2026-02-01T10:00:00Z"
     },
@@ -207,11 +225,11 @@
       "id": 3,
       "comicId": 1,
       "chapterNumber": 3,
-      "title": "Liên Minh Hình Thành",
+      "title": "",
       "pages": [
-        "assets/images/chapters/1/page7.jpg",
-        "assets/images/chapters/1/page8.jpg",
-        "assets/images/chapters/1/page9.jpg"
+        "assets/images/Comics/The_Beginning_After_The_End/page7.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page8.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page9.jpg"
       ],
       "createdAt": "2026-03-01T10:00:00Z"
     },
@@ -219,11 +237,11 @@
       "id": 4,
       "comicId": 2,
       "chapterNumber": 1,
-      "title": "Bóng Tối Giáng Lâm",
+      "title": "",
       "pages": [
-        "assets/images/chapters/2/page1.jpg",
-        "assets/images/chapters/2/page2.jpg",
-        "assets/images/chapters/2/page3.jpg"
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
       ],
       "createdAt": "2026-02-10T10:00:00Z"
     },
@@ -231,10 +249,10 @@
       "id": 5,
       "comicId": 2,
       "chapterNumber": 2,
-      "title": "Kẻ Báo Thù",
+      "title": "",
       "pages": [
-        "assets/images/chapters/2/page4.jpg",
-        "assets/images/chapters/2/page5.jpg"
+        "assets/images/Comics/Pick_Me_Up/page4.jpg",
+        "assets/images/Comics/Pick_Me_Up/page5.jpg"
       ],
       "createdAt": "2026-03-05T10:00:00Z"
     },
@@ -242,10 +260,10 @@
       "id": 6,
       "comicId": 3,
       "chapterNumber": 1,
-      "title": "Bình Minh Phiêu Lưu",
+      "title": "",
       "pages": [
-        "assets/images/chapters/3/page1.jpg",
-        "assets/images/chapters/3/page2.jpg"
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
       ],
       "createdAt": "2026-01-25T10:00:00Z"
     },
@@ -253,10 +271,10 @@
       "id": 7,
       "comicId": 3,
       "chapterNumber": 2,
-      "title": "Chàng Trai Mũ Rơm Luffy",
+      "title": "",
       "pages": [
-        "assets/images/chapters/3/page3.jpg",
-        "assets/images/chapters/3/page4.jpg"
+        "assets/images/Comics/One_Piece/page3.jpg",
+        "assets/images/Comics/One_Piece/page4.jpg"
       ],
       "createdAt": "2026-02-20T10:00:00Z"
     },
@@ -264,11 +282,11 @@
       "id": 8,
       "comicId": 4,
       "chapterNumber": 1,
-      "title": "Một Cú Đấm Tất Sát",
+      "title": "",
       "pages": [
-        "assets/images/chapters/4/page1.jpeg",
-        "assets/images/chapters/4/page2.jpeg",
-        "assets/images/chapters/4/page3.jpeg"
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
       ],
       "createdAt": "2026-03-15T10:00:00Z"
     },
@@ -276,10 +294,10 @@
       "id": 9,
       "comicId": 5,
       "chapterNumber": 1,
-      "title": "Uzumaki Naruto Xuất Hiện!",
+      "title": "",
       "pages": [
-        "assets/images/chapters/5/page1.jpg",
-        "assets/images/chapters/5/page2.jpg"
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
       ],
       "createdAt": "2026-02-20T10:00:00Z"
     },
@@ -287,10 +305,10 @@
       "id": 10,
       "comicId": 5,
       "chapterNumber": 2,
-      "title": "Đội 7 Thành Lập",
+      "title": "",
       "pages": [
-        "assets/images/chapters/5/page3.png",
-        "assets/images/chapters/5/page4.png"
+        "assets/images/Comics/Naruto/page3.png",
+        "assets/images/Comics/Naruto/page4.png"
       ],
       "createdAt": "2026-03-15T10:00:00Z"
     },
@@ -298,13 +316,6973 @@
       "id": 11,
       "comicId": 6,
       "chapterNumber": 1,
-      "title": "Bulma và Son Goku",
+      "title": "",
       "pages": [
-        "assets/images/chapters/6/page1.jpg",
-        "assets/images/chapters/6/page2.jpg",
-        "assets/images/chapters/6/page3.jpg"
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
       ],
       "createdAt": "2026-04-05T10:00:00Z"
+    },
+    {
+      "id": 12,
+      "comicId": 1,
+      "chapterNumber": 4,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:24:05.948Z"
+    },
+    {
+      "id": 13,
+      "comicId": 1,
+      "chapterNumber": 5,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:25:05.949Z"
+    },
+    {
+      "id": 14,
+      "comicId": 1,
+      "chapterNumber": 6,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:26:05.949Z"
+    },
+    {
+      "id": 15,
+      "comicId": 1,
+      "chapterNumber": 7,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:27:05.949Z"
+    },
+    {
+      "id": 16,
+      "comicId": 1,
+      "chapterNumber": 8,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:28:05.949Z"
+    },
+    {
+      "id": 17,
+      "comicId": 1,
+      "chapterNumber": 9,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:29:05.949Z"
+    },
+    {
+      "id": 18,
+      "comicId": 1,
+      "chapterNumber": 10,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:30:05.949Z"
+    },
+    {
+      "id": 19,
+      "comicId": 1,
+      "chapterNumber": 11,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:31:05.949Z"
+    },
+    {
+      "id": 20,
+      "comicId": 1,
+      "chapterNumber": 12,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:32:05.949Z"
+    },
+    {
+      "id": 21,
+      "comicId": 1,
+      "chapterNumber": 13,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:33:05.949Z"
+    },
+    {
+      "id": 22,
+      "comicId": 1,
+      "chapterNumber": 14,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:34:05.949Z"
+    },
+    {
+      "id": 23,
+      "comicId": 1,
+      "chapterNumber": 15,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:35:05.949Z"
+    },
+    {
+      "id": 24,
+      "comicId": 1,
+      "chapterNumber": 16,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:36:05.949Z"
+    },
+    {
+      "id": 25,
+      "comicId": 1,
+      "chapterNumber": 17,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:37:05.949Z"
+    },
+    {
+      "id": 26,
+      "comicId": 1,
+      "chapterNumber": 18,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:38:05.949Z"
+    },
+    {
+      "id": 27,
+      "comicId": 1,
+      "chapterNumber": 19,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:39:05.949Z"
+    },
+    {
+      "id": 28,
+      "comicId": 1,
+      "chapterNumber": 20,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:40:05.949Z"
+    },
+    {
+      "id": 29,
+      "comicId": 1,
+      "chapterNumber": 21,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:41:05.949Z"
+    },
+    {
+      "id": 30,
+      "comicId": 1,
+      "chapterNumber": 22,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:42:05.949Z"
+    },
+    {
+      "id": 31,
+      "comicId": 1,
+      "chapterNumber": 23,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:43:05.949Z"
+    },
+    {
+      "id": 32,
+      "comicId": 1,
+      "chapterNumber": 24,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:44:05.949Z"
+    },
+    {
+      "id": 33,
+      "comicId": 1,
+      "chapterNumber": 25,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:45:05.949Z"
+    },
+    {
+      "id": 34,
+      "comicId": 1,
+      "chapterNumber": 26,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:46:05.949Z"
+    },
+    {
+      "id": 35,
+      "comicId": 1,
+      "chapterNumber": 27,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:47:05.949Z"
+    },
+    {
+      "id": 36,
+      "comicId": 1,
+      "chapterNumber": 28,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:48:05.949Z"
+    },
+    {
+      "id": 37,
+      "comicId": 1,
+      "chapterNumber": 29,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:49:05.949Z"
+    },
+    {
+      "id": 38,
+      "comicId": 1,
+      "chapterNumber": 30,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:50:05.949Z"
+    },
+    {
+      "id": 39,
+      "comicId": 1,
+      "chapterNumber": 31,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:51:05.949Z"
+    },
+    {
+      "id": 40,
+      "comicId": 1,
+      "chapterNumber": 32,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:52:05.949Z"
+    },
+    {
+      "id": 41,
+      "comicId": 1,
+      "chapterNumber": 33,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:53:05.949Z"
+    },
+    {
+      "id": 42,
+      "comicId": 1,
+      "chapterNumber": 34,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:54:05.949Z"
+    },
+    {
+      "id": 43,
+      "comicId": 1,
+      "chapterNumber": 35,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:55:05.949Z"
+    },
+    {
+      "id": 44,
+      "comicId": 1,
+      "chapterNumber": 36,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:56:05.949Z"
+    },
+    {
+      "id": 45,
+      "comicId": 1,
+      "chapterNumber": 37,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:57:05.949Z"
+    },
+    {
+      "id": 46,
+      "comicId": 1,
+      "chapterNumber": 38,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:58:05.949Z"
+    },
+    {
+      "id": 47,
+      "comicId": 1,
+      "chapterNumber": 39,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:59:05.949Z"
+    },
+    {
+      "id": 48,
+      "comicId": 1,
+      "chapterNumber": 40,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:00:05.949Z"
+    },
+    {
+      "id": 49,
+      "comicId": 1,
+      "chapterNumber": 41,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:01:05.949Z"
+    },
+    {
+      "id": 50,
+      "comicId": 1,
+      "chapterNumber": 42,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:02:05.949Z"
+    },
+    {
+      "id": 51,
+      "comicId": 1,
+      "chapterNumber": 43,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:03:05.949Z"
+    },
+    {
+      "id": 52,
+      "comicId": 2,
+      "chapterNumber": 3,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:24:05.949Z"
+    },
+    {
+      "id": 53,
+      "comicId": 2,
+      "chapterNumber": 4,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:25:05.949Z"
+    },
+    {
+      "id": 54,
+      "comicId": 2,
+      "chapterNumber": 5,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:26:05.949Z"
+    },
+    {
+      "id": 55,
+      "comicId": 2,
+      "chapterNumber": 6,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:27:05.949Z"
+    },
+    {
+      "id": 56,
+      "comicId": 2,
+      "chapterNumber": 7,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:28:05.949Z"
+    },
+    {
+      "id": 57,
+      "comicId": 2,
+      "chapterNumber": 8,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:29:05.949Z"
+    },
+    {
+      "id": 58,
+      "comicId": 2,
+      "chapterNumber": 9,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:30:05.949Z"
+    },
+    {
+      "id": 59,
+      "comicId": 2,
+      "chapterNumber": 10,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:31:05.949Z"
+    },
+    {
+      "id": 60,
+      "comicId": 2,
+      "chapterNumber": 11,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:32:05.949Z"
+    },
+    {
+      "id": 61,
+      "comicId": 2,
+      "chapterNumber": 12,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:33:05.949Z"
+    },
+    {
+      "id": 62,
+      "comicId": 2,
+      "chapterNumber": 13,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:34:05.949Z"
+    },
+    {
+      "id": 63,
+      "comicId": 2,
+      "chapterNumber": 14,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:35:05.949Z"
+    },
+    {
+      "id": 64,
+      "comicId": 2,
+      "chapterNumber": 15,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:36:05.949Z"
+    },
+    {
+      "id": 65,
+      "comicId": 2,
+      "chapterNumber": 16,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:37:05.949Z"
+    },
+    {
+      "id": 66,
+      "comicId": 2,
+      "chapterNumber": 17,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:38:05.949Z"
+    },
+    {
+      "id": 67,
+      "comicId": 2,
+      "chapterNumber": 18,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:39:05.949Z"
+    },
+    {
+      "id": 68,
+      "comicId": 2,
+      "chapterNumber": 19,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:40:05.949Z"
+    },
+    {
+      "id": 69,
+      "comicId": 2,
+      "chapterNumber": 20,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:41:05.949Z"
+    },
+    {
+      "id": 70,
+      "comicId": 2,
+      "chapterNumber": 21,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:42:05.949Z"
+    },
+    {
+      "id": 71,
+      "comicId": 2,
+      "chapterNumber": 22,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:43:05.949Z"
+    },
+    {
+      "id": 72,
+      "comicId": 2,
+      "chapterNumber": 23,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:44:05.949Z"
+    },
+    {
+      "id": 73,
+      "comicId": 2,
+      "chapterNumber": 24,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:45:05.949Z"
+    },
+    {
+      "id": 74,
+      "comicId": 2,
+      "chapterNumber": 25,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:46:05.949Z"
+    },
+    {
+      "id": 75,
+      "comicId": 2,
+      "chapterNumber": 26,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:47:05.949Z"
+    },
+    {
+      "id": 76,
+      "comicId": 2,
+      "chapterNumber": 27,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:48:05.949Z"
+    },
+    {
+      "id": 77,
+      "comicId": 2,
+      "chapterNumber": 28,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:49:05.949Z"
+    },
+    {
+      "id": 78,
+      "comicId": 2,
+      "chapterNumber": 29,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:50:05.949Z"
+    },
+    {
+      "id": 79,
+      "comicId": 2,
+      "chapterNumber": 30,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:51:05.949Z"
+    },
+    {
+      "id": 80,
+      "comicId": 2,
+      "chapterNumber": 31,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:52:05.949Z"
+    },
+    {
+      "id": 81,
+      "comicId": 2,
+      "chapterNumber": 32,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:53:05.949Z"
+    },
+    {
+      "id": 82,
+      "comicId": 2,
+      "chapterNumber": 33,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:54:05.949Z"
+    },
+    {
+      "id": 83,
+      "comicId": 2,
+      "chapterNumber": 34,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:55:05.949Z"
+    },
+    {
+      "id": 84,
+      "comicId": 2,
+      "chapterNumber": 35,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:56:05.949Z"
+    },
+    {
+      "id": 85,
+      "comicId": 2,
+      "chapterNumber": 36,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:57:05.949Z"
+    },
+    {
+      "id": 86,
+      "comicId": 2,
+      "chapterNumber": 37,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:58:05.949Z"
+    },
+    {
+      "id": 87,
+      "comicId": 2,
+      "chapterNumber": 38,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:59:05.949Z"
+    },
+    {
+      "id": 88,
+      "comicId": 2,
+      "chapterNumber": 39,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:00:05.949Z"
+    },
+    {
+      "id": 89,
+      "comicId": 2,
+      "chapterNumber": 40,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:01:05.949Z"
+    },
+    {
+      "id": 90,
+      "comicId": 2,
+      "chapterNumber": 41,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:02:05.949Z"
+    },
+    {
+      "id": 91,
+      "comicId": 2,
+      "chapterNumber": 42,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:03:05.949Z"
+    },
+    {
+      "id": 92,
+      "comicId": 3,
+      "chapterNumber": 3,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:24:05.949Z"
+    },
+    {
+      "id": 93,
+      "comicId": 3,
+      "chapterNumber": 4,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:25:05.949Z"
+    },
+    {
+      "id": 94,
+      "comicId": 3,
+      "chapterNumber": 5,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:26:05.949Z"
+    },
+    {
+      "id": 95,
+      "comicId": 3,
+      "chapterNumber": 6,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:27:05.949Z"
+    },
+    {
+      "id": 96,
+      "comicId": 3,
+      "chapterNumber": 7,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:28:05.949Z"
+    },
+    {
+      "id": 97,
+      "comicId": 3,
+      "chapterNumber": 8,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:29:05.949Z"
+    },
+    {
+      "id": 98,
+      "comicId": 3,
+      "chapterNumber": 9,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:30:05.949Z"
+    },
+    {
+      "id": 99,
+      "comicId": 3,
+      "chapterNumber": 10,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:31:05.949Z"
+    },
+    {
+      "id": 100,
+      "comicId": 3,
+      "chapterNumber": 11,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:32:05.949Z"
+    },
+    {
+      "id": 101,
+      "comicId": 3,
+      "chapterNumber": 12,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:33:05.949Z"
+    },
+    {
+      "id": 102,
+      "comicId": 3,
+      "chapterNumber": 13,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:34:05.949Z"
+    },
+    {
+      "id": 103,
+      "comicId": 3,
+      "chapterNumber": 14,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:35:05.949Z"
+    },
+    {
+      "id": 104,
+      "comicId": 3,
+      "chapterNumber": 15,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:36:05.949Z"
+    },
+    {
+      "id": 105,
+      "comicId": 3,
+      "chapterNumber": 16,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:37:05.949Z"
+    },
+    {
+      "id": 106,
+      "comicId": 3,
+      "chapterNumber": 17,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:38:05.949Z"
+    },
+    {
+      "id": 107,
+      "comicId": 3,
+      "chapterNumber": 18,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:39:05.949Z"
+    },
+    {
+      "id": 108,
+      "comicId": 3,
+      "chapterNumber": 19,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:40:05.949Z"
+    },
+    {
+      "id": 109,
+      "comicId": 3,
+      "chapterNumber": 20,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:41:05.949Z"
+    },
+    {
+      "id": 110,
+      "comicId": 3,
+      "chapterNumber": 21,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:42:05.949Z"
+    },
+    {
+      "id": 111,
+      "comicId": 3,
+      "chapterNumber": 22,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:43:05.949Z"
+    },
+    {
+      "id": 112,
+      "comicId": 3,
+      "chapterNumber": 23,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:44:05.949Z"
+    },
+    {
+      "id": 113,
+      "comicId": 3,
+      "chapterNumber": 24,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:45:05.949Z"
+    },
+    {
+      "id": 114,
+      "comicId": 3,
+      "chapterNumber": 25,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:46:05.949Z"
+    },
+    {
+      "id": 115,
+      "comicId": 3,
+      "chapterNumber": 26,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:47:05.949Z"
+    },
+    {
+      "id": 116,
+      "comicId": 3,
+      "chapterNumber": 27,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:48:05.949Z"
+    },
+    {
+      "id": 117,
+      "comicId": 3,
+      "chapterNumber": 28,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:49:05.949Z"
+    },
+    {
+      "id": 118,
+      "comicId": 3,
+      "chapterNumber": 29,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:50:05.949Z"
+    },
+    {
+      "id": 119,
+      "comicId": 3,
+      "chapterNumber": 30,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:51:05.949Z"
+    },
+    {
+      "id": 120,
+      "comicId": 3,
+      "chapterNumber": 31,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:52:05.949Z"
+    },
+    {
+      "id": 121,
+      "comicId": 3,
+      "chapterNumber": 32,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:53:05.949Z"
+    },
+    {
+      "id": 122,
+      "comicId": 3,
+      "chapterNumber": 33,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:54:05.949Z"
+    },
+    {
+      "id": 123,
+      "comicId": 3,
+      "chapterNumber": 34,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:55:05.949Z"
+    },
+    {
+      "id": 124,
+      "comicId": 3,
+      "chapterNumber": 35,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:56:05.949Z"
+    },
+    {
+      "id": 125,
+      "comicId": 3,
+      "chapterNumber": 36,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:57:05.949Z"
+    },
+    {
+      "id": 126,
+      "comicId": 3,
+      "chapterNumber": 37,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:58:05.949Z"
+    },
+    {
+      "id": 127,
+      "comicId": 3,
+      "chapterNumber": 38,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:59:05.949Z"
+    },
+    {
+      "id": 128,
+      "comicId": 3,
+      "chapterNumber": 39,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:00:05.949Z"
+    },
+    {
+      "id": 129,
+      "comicId": 3,
+      "chapterNumber": 40,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:01:05.949Z"
+    },
+    {
+      "id": 130,
+      "comicId": 3,
+      "chapterNumber": 41,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:02:05.949Z"
+    },
+    {
+      "id": 131,
+      "comicId": 3,
+      "chapterNumber": 42,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:03:05.949Z"
+    },
+    {
+      "id": 132,
+      "comicId": 4,
+      "chapterNumber": 2,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:24:05.949Z"
+    },
+    {
+      "id": 133,
+      "comicId": 4,
+      "chapterNumber": 3,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:25:05.949Z"
+    },
+    {
+      "id": 134,
+      "comicId": 4,
+      "chapterNumber": 4,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:26:05.949Z"
+    },
+    {
+      "id": 135,
+      "comicId": 4,
+      "chapterNumber": 5,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:27:05.949Z"
+    },
+    {
+      "id": 136,
+      "comicId": 4,
+      "chapterNumber": 6,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:28:05.949Z"
+    },
+    {
+      "id": 137,
+      "comicId": 4,
+      "chapterNumber": 7,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:29:05.949Z"
+    },
+    {
+      "id": 138,
+      "comicId": 4,
+      "chapterNumber": 8,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:30:05.949Z"
+    },
+    {
+      "id": 139,
+      "comicId": 4,
+      "chapterNumber": 9,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:31:05.949Z"
+    },
+    {
+      "id": 140,
+      "comicId": 4,
+      "chapterNumber": 10,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:32:05.949Z"
+    },
+    {
+      "id": 141,
+      "comicId": 4,
+      "chapterNumber": 11,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:33:05.949Z"
+    },
+    {
+      "id": 142,
+      "comicId": 4,
+      "chapterNumber": 12,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:34:05.949Z"
+    },
+    {
+      "id": 143,
+      "comicId": 4,
+      "chapterNumber": 13,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:35:05.949Z"
+    },
+    {
+      "id": 144,
+      "comicId": 4,
+      "chapterNumber": 14,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:36:05.949Z"
+    },
+    {
+      "id": 145,
+      "comicId": 4,
+      "chapterNumber": 15,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:37:05.949Z"
+    },
+    {
+      "id": 146,
+      "comicId": 4,
+      "chapterNumber": 16,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:38:05.949Z"
+    },
+    {
+      "id": 147,
+      "comicId": 4,
+      "chapterNumber": 17,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:39:05.949Z"
+    },
+    {
+      "id": 148,
+      "comicId": 4,
+      "chapterNumber": 18,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:40:05.949Z"
+    },
+    {
+      "id": 149,
+      "comicId": 4,
+      "chapterNumber": 19,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:41:05.949Z"
+    },
+    {
+      "id": 150,
+      "comicId": 4,
+      "chapterNumber": 20,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:42:05.949Z"
+    },
+    {
+      "id": 151,
+      "comicId": 4,
+      "chapterNumber": 21,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:43:05.949Z"
+    },
+    {
+      "id": 152,
+      "comicId": 4,
+      "chapterNumber": 22,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:44:05.949Z"
+    },
+    {
+      "id": 153,
+      "comicId": 4,
+      "chapterNumber": 23,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:45:05.949Z"
+    },
+    {
+      "id": 154,
+      "comicId": 4,
+      "chapterNumber": 24,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:46:05.949Z"
+    },
+    {
+      "id": 155,
+      "comicId": 4,
+      "chapterNumber": 25,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:47:05.949Z"
+    },
+    {
+      "id": 156,
+      "comicId": 4,
+      "chapterNumber": 26,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:48:05.949Z"
+    },
+    {
+      "id": 157,
+      "comicId": 4,
+      "chapterNumber": 27,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:49:05.949Z"
+    },
+    {
+      "id": 158,
+      "comicId": 4,
+      "chapterNumber": 28,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:50:05.949Z"
+    },
+    {
+      "id": 159,
+      "comicId": 4,
+      "chapterNumber": 29,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:51:05.949Z"
+    },
+    {
+      "id": 160,
+      "comicId": 4,
+      "chapterNumber": 30,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:52:05.949Z"
+    },
+    {
+      "id": 161,
+      "comicId": 4,
+      "chapterNumber": 31,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:53:05.949Z"
+    },
+    {
+      "id": 162,
+      "comicId": 4,
+      "chapterNumber": 32,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:54:05.949Z"
+    },
+    {
+      "id": 163,
+      "comicId": 4,
+      "chapterNumber": 33,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:55:05.949Z"
+    },
+    {
+      "id": 164,
+      "comicId": 4,
+      "chapterNumber": 34,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:56:05.949Z"
+    },
+    {
+      "id": 165,
+      "comicId": 4,
+      "chapterNumber": 35,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:57:05.949Z"
+    },
+    {
+      "id": 166,
+      "comicId": 4,
+      "chapterNumber": 36,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:58:05.949Z"
+    },
+    {
+      "id": 167,
+      "comicId": 4,
+      "chapterNumber": 37,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:59:05.949Z"
+    },
+    {
+      "id": 168,
+      "comicId": 4,
+      "chapterNumber": 38,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:00:05.949Z"
+    },
+    {
+      "id": 169,
+      "comicId": 4,
+      "chapterNumber": 39,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:01:05.949Z"
+    },
+    {
+      "id": 170,
+      "comicId": 4,
+      "chapterNumber": 40,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:02:05.949Z"
+    },
+    {
+      "id": 171,
+      "comicId": 4,
+      "chapterNumber": 41,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:03:05.949Z"
+    },
+    {
+      "id": 172,
+      "comicId": 5,
+      "chapterNumber": 3,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:24:05.949Z"
+    },
+    {
+      "id": 173,
+      "comicId": 5,
+      "chapterNumber": 4,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:25:05.949Z"
+    },
+    {
+      "id": 174,
+      "comicId": 5,
+      "chapterNumber": 5,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:26:05.949Z"
+    },
+    {
+      "id": 175,
+      "comicId": 5,
+      "chapterNumber": 6,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:27:05.949Z"
+    },
+    {
+      "id": 176,
+      "comicId": 5,
+      "chapterNumber": 7,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:28:05.949Z"
+    },
+    {
+      "id": 177,
+      "comicId": 5,
+      "chapterNumber": 8,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:29:05.949Z"
+    },
+    {
+      "id": 178,
+      "comicId": 5,
+      "chapterNumber": 9,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:30:05.949Z"
+    },
+    {
+      "id": 179,
+      "comicId": 5,
+      "chapterNumber": 10,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:31:05.949Z"
+    },
+    {
+      "id": 180,
+      "comicId": 5,
+      "chapterNumber": 11,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:32:05.949Z"
+    },
+    {
+      "id": 181,
+      "comicId": 5,
+      "chapterNumber": 12,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:33:05.949Z"
+    },
+    {
+      "id": 182,
+      "comicId": 5,
+      "chapterNumber": 13,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:34:05.949Z"
+    },
+    {
+      "id": 183,
+      "comicId": 5,
+      "chapterNumber": 14,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:35:05.949Z"
+    },
+    {
+      "id": 184,
+      "comicId": 5,
+      "chapterNumber": 15,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:36:05.949Z"
+    },
+    {
+      "id": 185,
+      "comicId": 5,
+      "chapterNumber": 16,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:37:05.949Z"
+    },
+    {
+      "id": 186,
+      "comicId": 5,
+      "chapterNumber": 17,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:38:05.949Z"
+    },
+    {
+      "id": 187,
+      "comicId": 5,
+      "chapterNumber": 18,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:39:05.949Z"
+    },
+    {
+      "id": 188,
+      "comicId": 5,
+      "chapterNumber": 19,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:40:05.949Z"
+    },
+    {
+      "id": 189,
+      "comicId": 5,
+      "chapterNumber": 20,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:41:05.949Z"
+    },
+    {
+      "id": 190,
+      "comicId": 5,
+      "chapterNumber": 21,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:42:05.949Z"
+    },
+    {
+      "id": 191,
+      "comicId": 5,
+      "chapterNumber": 22,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:43:05.949Z"
+    },
+    {
+      "id": 192,
+      "comicId": 5,
+      "chapterNumber": 23,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:44:05.949Z"
+    },
+    {
+      "id": 193,
+      "comicId": 5,
+      "chapterNumber": 24,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:45:05.949Z"
+    },
+    {
+      "id": 194,
+      "comicId": 5,
+      "chapterNumber": 25,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:46:05.949Z"
+    },
+    {
+      "id": 195,
+      "comicId": 5,
+      "chapterNumber": 26,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:47:05.949Z"
+    },
+    {
+      "id": 196,
+      "comicId": 5,
+      "chapterNumber": 27,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:48:05.949Z"
+    },
+    {
+      "id": 197,
+      "comicId": 5,
+      "chapterNumber": 28,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:49:05.949Z"
+    },
+    {
+      "id": 198,
+      "comicId": 5,
+      "chapterNumber": 29,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:50:05.949Z"
+    },
+    {
+      "id": 199,
+      "comicId": 5,
+      "chapterNumber": 30,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:51:05.949Z"
+    },
+    {
+      "id": 200,
+      "comicId": 5,
+      "chapterNumber": 31,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:52:05.949Z"
+    },
+    {
+      "id": 201,
+      "comicId": 5,
+      "chapterNumber": 32,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:53:05.949Z"
+    },
+    {
+      "id": 202,
+      "comicId": 5,
+      "chapterNumber": 33,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:54:05.949Z"
+    },
+    {
+      "id": 203,
+      "comicId": 5,
+      "chapterNumber": 34,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:55:05.949Z"
+    },
+    {
+      "id": 204,
+      "comicId": 5,
+      "chapterNumber": 35,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:56:05.949Z"
+    },
+    {
+      "id": 205,
+      "comicId": 5,
+      "chapterNumber": 36,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:57:05.949Z"
+    },
+    {
+      "id": 206,
+      "comicId": 5,
+      "chapterNumber": 37,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:58:05.949Z"
+    },
+    {
+      "id": 207,
+      "comicId": 5,
+      "chapterNumber": 38,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:59:05.949Z"
+    },
+    {
+      "id": 208,
+      "comicId": 5,
+      "chapterNumber": 39,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:00:05.949Z"
+    },
+    {
+      "id": 209,
+      "comicId": 5,
+      "chapterNumber": 40,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:01:05.949Z"
+    },
+    {
+      "id": 210,
+      "comicId": 5,
+      "chapterNumber": 41,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:02:05.949Z"
+    },
+    {
+      "id": 211,
+      "comicId": 5,
+      "chapterNumber": 42,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:03:05.949Z"
+    },
+    {
+      "id": 212,
+      "comicId": 6,
+      "chapterNumber": 2,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:24:05.949Z"
+    },
+    {
+      "id": 213,
+      "comicId": 6,
+      "chapterNumber": 3,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:25:05.949Z"
+    },
+    {
+      "id": 214,
+      "comicId": 6,
+      "chapterNumber": 4,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:26:05.949Z"
+    },
+    {
+      "id": 215,
+      "comicId": 6,
+      "chapterNumber": 5,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:27:05.949Z"
+    },
+    {
+      "id": 216,
+      "comicId": 6,
+      "chapterNumber": 6,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:28:05.949Z"
+    },
+    {
+      "id": 217,
+      "comicId": 6,
+      "chapterNumber": 7,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:29:05.949Z"
+    },
+    {
+      "id": 218,
+      "comicId": 6,
+      "chapterNumber": 8,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:30:05.949Z"
+    },
+    {
+      "id": 219,
+      "comicId": 6,
+      "chapterNumber": 9,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:31:05.949Z"
+    },
+    {
+      "id": 220,
+      "comicId": 6,
+      "chapterNumber": 10,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:32:05.949Z"
+    },
+    {
+      "id": 221,
+      "comicId": 6,
+      "chapterNumber": 11,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:33:05.949Z"
+    },
+    {
+      "id": 222,
+      "comicId": 6,
+      "chapterNumber": 12,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:34:05.949Z"
+    },
+    {
+      "id": 223,
+      "comicId": 6,
+      "chapterNumber": 13,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:35:05.949Z"
+    },
+    {
+      "id": 224,
+      "comicId": 6,
+      "chapterNumber": 14,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:36:05.949Z"
+    },
+    {
+      "id": 225,
+      "comicId": 6,
+      "chapterNumber": 15,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:37:05.949Z"
+    },
+    {
+      "id": 226,
+      "comicId": 6,
+      "chapterNumber": 16,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:38:05.949Z"
+    },
+    {
+      "id": 227,
+      "comicId": 6,
+      "chapterNumber": 17,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:39:05.949Z"
+    },
+    {
+      "id": 228,
+      "comicId": 6,
+      "chapterNumber": 18,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:40:05.949Z"
+    },
+    {
+      "id": 229,
+      "comicId": 6,
+      "chapterNumber": 19,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:41:05.949Z"
+    },
+    {
+      "id": 230,
+      "comicId": 6,
+      "chapterNumber": 20,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:42:05.949Z"
+    },
+    {
+      "id": 231,
+      "comicId": 6,
+      "chapterNumber": 21,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:43:05.949Z"
+    },
+    {
+      "id": 232,
+      "comicId": 6,
+      "chapterNumber": 22,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:44:05.949Z"
+    },
+    {
+      "id": 233,
+      "comicId": 6,
+      "chapterNumber": 23,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:45:05.949Z"
+    },
+    {
+      "id": 234,
+      "comicId": 6,
+      "chapterNumber": 24,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:46:05.949Z"
+    },
+    {
+      "id": 235,
+      "comicId": 6,
+      "chapterNumber": 25,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:47:05.949Z"
+    },
+    {
+      "id": 236,
+      "comicId": 6,
+      "chapterNumber": 26,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:48:05.949Z"
+    },
+    {
+      "id": 237,
+      "comicId": 6,
+      "chapterNumber": 27,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:49:05.949Z"
+    },
+    {
+      "id": 238,
+      "comicId": 6,
+      "chapterNumber": 28,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:50:05.949Z"
+    },
+    {
+      "id": 239,
+      "comicId": 6,
+      "chapterNumber": 29,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:51:05.949Z"
+    },
+    {
+      "id": 240,
+      "comicId": 6,
+      "chapterNumber": 30,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:52:05.949Z"
+    },
+    {
+      "id": 241,
+      "comicId": 6,
+      "chapterNumber": 31,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:53:05.949Z"
+    },
+    {
+      "id": 242,
+      "comicId": 6,
+      "chapterNumber": 32,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:54:05.949Z"
+    },
+    {
+      "id": 243,
+      "comicId": 6,
+      "chapterNumber": 33,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:55:05.949Z"
+    },
+    {
+      "id": 244,
+      "comicId": 6,
+      "chapterNumber": 34,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:56:05.949Z"
+    },
+    {
+      "id": 245,
+      "comicId": 6,
+      "chapterNumber": 35,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:57:05.949Z"
+    },
+    {
+      "id": 246,
+      "comicId": 6,
+      "chapterNumber": 36,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:58:05.949Z"
+    },
+    {
+      "id": 247,
+      "comicId": 6,
+      "chapterNumber": 37,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:59:05.949Z"
+    },
+    {
+      "id": 248,
+      "comicId": 6,
+      "chapterNumber": 38,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:00:05.949Z"
+    },
+    {
+      "id": 249,
+      "comicId": 6,
+      "chapterNumber": 39,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:01:05.949Z"
+    },
+    {
+      "id": 250,
+      "comicId": 6,
+      "chapterNumber": 40,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:02:05.949Z"
+    },
+    {
+      "id": 251,
+      "comicId": 6,
+      "chapterNumber": 41,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:03:05.949Z"
+    },
+    {
+      "id": 252,
+      "comicId": 7,
+      "chapterNumber": 1,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:24:05.949Z"
+    },
+    {
+      "id": 253,
+      "comicId": 7,
+      "chapterNumber": 2,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:25:05.950Z"
+    },
+    {
+      "id": 254,
+      "comicId": 7,
+      "chapterNumber": 3,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:26:05.950Z"
+    },
+    {
+      "id": 255,
+      "comicId": 7,
+      "chapterNumber": 4,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:27:05.950Z"
+    },
+    {
+      "id": 256,
+      "comicId": 7,
+      "chapterNumber": 5,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:28:05.950Z"
+    },
+    {
+      "id": 257,
+      "comicId": 7,
+      "chapterNumber": 6,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:29:05.950Z"
+    },
+    {
+      "id": 258,
+      "comicId": 7,
+      "chapterNumber": 7,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:30:05.950Z"
+    },
+    {
+      "id": 259,
+      "comicId": 7,
+      "chapterNumber": 8,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:31:05.950Z"
+    },
+    {
+      "id": 260,
+      "comicId": 7,
+      "chapterNumber": 9,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:32:05.950Z"
+    },
+    {
+      "id": 261,
+      "comicId": 7,
+      "chapterNumber": 10,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:33:05.950Z"
+    },
+    {
+      "id": 262,
+      "comicId": 7,
+      "chapterNumber": 11,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:34:05.950Z"
+    },
+    {
+      "id": 263,
+      "comicId": 7,
+      "chapterNumber": 12,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:35:05.950Z"
+    },
+    {
+      "id": 264,
+      "comicId": 7,
+      "chapterNumber": 13,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:36:05.950Z"
+    },
+    {
+      "id": 265,
+      "comicId": 7,
+      "chapterNumber": 14,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:37:05.950Z"
+    },
+    {
+      "id": 266,
+      "comicId": 7,
+      "chapterNumber": 15,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:38:05.950Z"
+    },
+    {
+      "id": 267,
+      "comicId": 7,
+      "chapterNumber": 16,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:39:05.950Z"
+    },
+    {
+      "id": 268,
+      "comicId": 7,
+      "chapterNumber": 17,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:40:05.950Z"
+    },
+    {
+      "id": 269,
+      "comicId": 7,
+      "chapterNumber": 18,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:41:05.950Z"
+    },
+    {
+      "id": 270,
+      "comicId": 7,
+      "chapterNumber": 19,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:42:05.950Z"
+    },
+    {
+      "id": 271,
+      "comicId": 7,
+      "chapterNumber": 20,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:43:05.950Z"
+    },
+    {
+      "id": 272,
+      "comicId": 7,
+      "chapterNumber": 21,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:44:05.950Z"
+    },
+    {
+      "id": 273,
+      "comicId": 7,
+      "chapterNumber": 22,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:45:05.950Z"
+    },
+    {
+      "id": 274,
+      "comicId": 7,
+      "chapterNumber": 23,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:46:05.950Z"
+    },
+    {
+      "id": 275,
+      "comicId": 7,
+      "chapterNumber": 24,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:47:05.950Z"
+    },
+    {
+      "id": 276,
+      "comicId": 7,
+      "chapterNumber": 25,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:48:05.950Z"
+    },
+    {
+      "id": 277,
+      "comicId": 7,
+      "chapterNumber": 26,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:49:05.950Z"
+    },
+    {
+      "id": 278,
+      "comicId": 7,
+      "chapterNumber": 27,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:50:05.950Z"
+    },
+    {
+      "id": 279,
+      "comicId": 7,
+      "chapterNumber": 28,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:51:05.950Z"
+    },
+    {
+      "id": 280,
+      "comicId": 7,
+      "chapterNumber": 29,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:52:05.950Z"
+    },
+    {
+      "id": 281,
+      "comicId": 7,
+      "chapterNumber": 30,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:53:05.950Z"
+    },
+    {
+      "id": 282,
+      "comicId": 7,
+      "chapterNumber": 31,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:54:05.950Z"
+    },
+    {
+      "id": 283,
+      "comicId": 7,
+      "chapterNumber": 32,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:55:05.950Z"
+    },
+    {
+      "id": 284,
+      "comicId": 7,
+      "chapterNumber": 33,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:56:05.950Z"
+    },
+    {
+      "id": 285,
+      "comicId": 7,
+      "chapterNumber": 34,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:57:05.950Z"
+    },
+    {
+      "id": 286,
+      "comicId": 7,
+      "chapterNumber": 35,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:58:05.950Z"
+    },
+    {
+      "id": 287,
+      "comicId": 7,
+      "chapterNumber": 36,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:59:05.950Z"
+    },
+    {
+      "id": 288,
+      "comicId": 7,
+      "chapterNumber": 37,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:00:05.950Z"
+    },
+    {
+      "id": 289,
+      "comicId": 7,
+      "chapterNumber": 38,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:01:05.950Z"
+    },
+    {
+      "id": 290,
+      "comicId": 7,
+      "chapterNumber": 39,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:02:05.950Z"
+    },
+    {
+      "id": 291,
+      "comicId": 7,
+      "chapterNumber": 40,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:03:05.950Z"
+    },
+    {
+      "id": 292,
+      "comicId": 1,
+      "chapterNumber": 44,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:25:28.946Z"
+    },
+    {
+      "id": 293,
+      "comicId": 1,
+      "chapterNumber": 45,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:26:28.948Z"
+    },
+    {
+      "id": 294,
+      "comicId": 1,
+      "chapterNumber": 46,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:27:28.948Z"
+    },
+    {
+      "id": 295,
+      "comicId": 1,
+      "chapterNumber": 47,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:28:28.948Z"
+    },
+    {
+      "id": 296,
+      "comicId": 1,
+      "chapterNumber": 48,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:29:28.948Z"
+    },
+    {
+      "id": 297,
+      "comicId": 1,
+      "chapterNumber": 49,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:30:28.948Z"
+    },
+    {
+      "id": 298,
+      "comicId": 1,
+      "chapterNumber": 50,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:31:28.948Z"
+    },
+    {
+      "id": 299,
+      "comicId": 1,
+      "chapterNumber": 51,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:32:28.948Z"
+    },
+    {
+      "id": 300,
+      "comicId": 1,
+      "chapterNumber": 52,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:33:28.948Z"
+    },
+    {
+      "id": 301,
+      "comicId": 1,
+      "chapterNumber": 53,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:34:28.948Z"
+    },
+    {
+      "id": 302,
+      "comicId": 1,
+      "chapterNumber": 54,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:35:28.948Z"
+    },
+    {
+      "id": 303,
+      "comicId": 1,
+      "chapterNumber": 55,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:36:28.948Z"
+    },
+    {
+      "id": 304,
+      "comicId": 1,
+      "chapterNumber": 56,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:37:28.948Z"
+    },
+    {
+      "id": 305,
+      "comicId": 1,
+      "chapterNumber": 57,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:38:28.948Z"
+    },
+    {
+      "id": 306,
+      "comicId": 1,
+      "chapterNumber": 58,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:39:28.948Z"
+    },
+    {
+      "id": 307,
+      "comicId": 1,
+      "chapterNumber": 59,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:40:28.948Z"
+    },
+    {
+      "id": 308,
+      "comicId": 1,
+      "chapterNumber": 60,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:41:28.948Z"
+    },
+    {
+      "id": 309,
+      "comicId": 1,
+      "chapterNumber": 61,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:42:28.948Z"
+    },
+    {
+      "id": 310,
+      "comicId": 1,
+      "chapterNumber": 62,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:43:28.948Z"
+    },
+    {
+      "id": 311,
+      "comicId": 1,
+      "chapterNumber": 63,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:44:28.948Z"
+    },
+    {
+      "id": 312,
+      "comicId": 1,
+      "chapterNumber": 64,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:45:28.948Z"
+    },
+    {
+      "id": 313,
+      "comicId": 1,
+      "chapterNumber": 65,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:46:28.948Z"
+    },
+    {
+      "id": 314,
+      "comicId": 1,
+      "chapterNumber": 66,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:47:28.948Z"
+    },
+    {
+      "id": 315,
+      "comicId": 1,
+      "chapterNumber": 67,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:48:28.948Z"
+    },
+    {
+      "id": 316,
+      "comicId": 1,
+      "chapterNumber": 68,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:49:28.948Z"
+    },
+    {
+      "id": 317,
+      "comicId": 1,
+      "chapterNumber": 69,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:50:28.948Z"
+    },
+    {
+      "id": 318,
+      "comicId": 1,
+      "chapterNumber": 70,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:51:28.948Z"
+    },
+    {
+      "id": 319,
+      "comicId": 1,
+      "chapterNumber": 71,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:52:28.948Z"
+    },
+    {
+      "id": 320,
+      "comicId": 1,
+      "chapterNumber": 72,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:53:28.948Z"
+    },
+    {
+      "id": 321,
+      "comicId": 1,
+      "chapterNumber": 73,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:54:28.948Z"
+    },
+    {
+      "id": 322,
+      "comicId": 1,
+      "chapterNumber": 74,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:55:28.948Z"
+    },
+    {
+      "id": 323,
+      "comicId": 1,
+      "chapterNumber": 75,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:56:28.948Z"
+    },
+    {
+      "id": 324,
+      "comicId": 1,
+      "chapterNumber": 76,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:57:28.948Z"
+    },
+    {
+      "id": 325,
+      "comicId": 1,
+      "chapterNumber": 77,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:58:28.948Z"
+    },
+    {
+      "id": 326,
+      "comicId": 1,
+      "chapterNumber": 78,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:59:28.948Z"
+    },
+    {
+      "id": 327,
+      "comicId": 1,
+      "chapterNumber": 79,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:00:28.948Z"
+    },
+    {
+      "id": 328,
+      "comicId": 1,
+      "chapterNumber": 80,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:01:28.948Z"
+    },
+    {
+      "id": 329,
+      "comicId": 1,
+      "chapterNumber": 81,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:02:28.948Z"
+    },
+    {
+      "id": 330,
+      "comicId": 1,
+      "chapterNumber": 82,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:03:28.948Z"
+    },
+    {
+      "id": 331,
+      "comicId": 1,
+      "chapterNumber": 83,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/The_Beginning_After_The_End/page1.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page2.jpg",
+        "assets/images/Comics/The_Beginning_After_The_End/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:04:28.948Z"
+    },
+    {
+      "id": 332,
+      "comicId": 2,
+      "chapterNumber": 43,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:25:28.948Z"
+    },
+    {
+      "id": 333,
+      "comicId": 2,
+      "chapterNumber": 44,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:26:28.948Z"
+    },
+    {
+      "id": 334,
+      "comicId": 2,
+      "chapterNumber": 45,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:27:28.948Z"
+    },
+    {
+      "id": 335,
+      "comicId": 2,
+      "chapterNumber": 46,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:28:28.948Z"
+    },
+    {
+      "id": 336,
+      "comicId": 2,
+      "chapterNumber": 47,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:29:28.948Z"
+    },
+    {
+      "id": 337,
+      "comicId": 2,
+      "chapterNumber": 48,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:30:28.948Z"
+    },
+    {
+      "id": 338,
+      "comicId": 2,
+      "chapterNumber": 49,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:31:28.948Z"
+    },
+    {
+      "id": 339,
+      "comicId": 2,
+      "chapterNumber": 50,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:32:28.948Z"
+    },
+    {
+      "id": 340,
+      "comicId": 2,
+      "chapterNumber": 51,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:33:28.948Z"
+    },
+    {
+      "id": 341,
+      "comicId": 2,
+      "chapterNumber": 52,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:34:28.948Z"
+    },
+    {
+      "id": 342,
+      "comicId": 2,
+      "chapterNumber": 53,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:35:28.948Z"
+    },
+    {
+      "id": 343,
+      "comicId": 2,
+      "chapterNumber": 54,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:36:28.948Z"
+    },
+    {
+      "id": 344,
+      "comicId": 2,
+      "chapterNumber": 55,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:37:28.948Z"
+    },
+    {
+      "id": 345,
+      "comicId": 2,
+      "chapterNumber": 56,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:38:28.948Z"
+    },
+    {
+      "id": 346,
+      "comicId": 2,
+      "chapterNumber": 57,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:39:28.948Z"
+    },
+    {
+      "id": 347,
+      "comicId": 2,
+      "chapterNumber": 58,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:40:28.948Z"
+    },
+    {
+      "id": 348,
+      "comicId": 2,
+      "chapterNumber": 59,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:41:28.948Z"
+    },
+    {
+      "id": 349,
+      "comicId": 2,
+      "chapterNumber": 60,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:42:28.948Z"
+    },
+    {
+      "id": 350,
+      "comicId": 2,
+      "chapterNumber": 61,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:43:28.948Z"
+    },
+    {
+      "id": 351,
+      "comicId": 2,
+      "chapterNumber": 62,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:44:28.948Z"
+    },
+    {
+      "id": 352,
+      "comicId": 2,
+      "chapterNumber": 63,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:45:28.948Z"
+    },
+    {
+      "id": 353,
+      "comicId": 2,
+      "chapterNumber": 64,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:46:28.948Z"
+    },
+    {
+      "id": 354,
+      "comicId": 2,
+      "chapterNumber": 65,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:47:28.948Z"
+    },
+    {
+      "id": 355,
+      "comicId": 2,
+      "chapterNumber": 66,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:48:28.948Z"
+    },
+    {
+      "id": 356,
+      "comicId": 2,
+      "chapterNumber": 67,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:49:28.948Z"
+    },
+    {
+      "id": 357,
+      "comicId": 2,
+      "chapterNumber": 68,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:50:28.948Z"
+    },
+    {
+      "id": 358,
+      "comicId": 2,
+      "chapterNumber": 69,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:51:28.948Z"
+    },
+    {
+      "id": 359,
+      "comicId": 2,
+      "chapterNumber": 70,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:52:28.948Z"
+    },
+    {
+      "id": 360,
+      "comicId": 2,
+      "chapterNumber": 71,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:53:28.948Z"
+    },
+    {
+      "id": 361,
+      "comicId": 2,
+      "chapterNumber": 72,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:54:28.948Z"
+    },
+    {
+      "id": 362,
+      "comicId": 2,
+      "chapterNumber": 73,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:55:28.948Z"
+    },
+    {
+      "id": 363,
+      "comicId": 2,
+      "chapterNumber": 74,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:56:28.948Z"
+    },
+    {
+      "id": 364,
+      "comicId": 2,
+      "chapterNumber": 75,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:57:28.948Z"
+    },
+    {
+      "id": 365,
+      "comicId": 2,
+      "chapterNumber": 76,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:58:28.948Z"
+    },
+    {
+      "id": 366,
+      "comicId": 2,
+      "chapterNumber": 77,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:59:28.948Z"
+    },
+    {
+      "id": 367,
+      "comicId": 2,
+      "chapterNumber": 78,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:00:28.948Z"
+    },
+    {
+      "id": 368,
+      "comicId": 2,
+      "chapterNumber": 79,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:01:28.948Z"
+    },
+    {
+      "id": 369,
+      "comicId": 2,
+      "chapterNumber": 80,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:02:28.949Z"
+    },
+    {
+      "id": 370,
+      "comicId": 2,
+      "chapterNumber": 81,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:03:28.949Z"
+    },
+    {
+      "id": 371,
+      "comicId": 2,
+      "chapterNumber": 82,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Pick_Me_Up/page1.jpg",
+        "assets/images/Comics/Pick_Me_Up/page2.jpg",
+        "assets/images/Comics/Pick_Me_Up/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:04:28.949Z"
+    },
+    {
+      "id": 372,
+      "comicId": 3,
+      "chapterNumber": 43,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:25:28.949Z"
+    },
+    {
+      "id": 373,
+      "comicId": 3,
+      "chapterNumber": 44,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:26:28.949Z"
+    },
+    {
+      "id": 374,
+      "comicId": 3,
+      "chapterNumber": 45,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:27:28.949Z"
+    },
+    {
+      "id": 375,
+      "comicId": 3,
+      "chapterNumber": 46,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:28:28.949Z"
+    },
+    {
+      "id": 376,
+      "comicId": 3,
+      "chapterNumber": 47,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:29:28.949Z"
+    },
+    {
+      "id": 377,
+      "comicId": 3,
+      "chapterNumber": 48,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:30:28.949Z"
+    },
+    {
+      "id": 378,
+      "comicId": 3,
+      "chapterNumber": 49,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:31:28.949Z"
+    },
+    {
+      "id": 379,
+      "comicId": 3,
+      "chapterNumber": 50,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:32:28.949Z"
+    },
+    {
+      "id": 380,
+      "comicId": 3,
+      "chapterNumber": 51,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:33:28.949Z"
+    },
+    {
+      "id": 381,
+      "comicId": 3,
+      "chapterNumber": 52,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:34:28.949Z"
+    },
+    {
+      "id": 382,
+      "comicId": 3,
+      "chapterNumber": 53,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:35:28.949Z"
+    },
+    {
+      "id": 383,
+      "comicId": 3,
+      "chapterNumber": 54,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:36:28.949Z"
+    },
+    {
+      "id": 384,
+      "comicId": 3,
+      "chapterNumber": 55,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:37:28.949Z"
+    },
+    {
+      "id": 385,
+      "comicId": 3,
+      "chapterNumber": 56,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:38:28.949Z"
+    },
+    {
+      "id": 386,
+      "comicId": 3,
+      "chapterNumber": 57,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:39:28.949Z"
+    },
+    {
+      "id": 387,
+      "comicId": 3,
+      "chapterNumber": 58,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:40:28.949Z"
+    },
+    {
+      "id": 388,
+      "comicId": 3,
+      "chapterNumber": 59,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:41:28.949Z"
+    },
+    {
+      "id": 389,
+      "comicId": 3,
+      "chapterNumber": 60,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:42:28.949Z"
+    },
+    {
+      "id": 390,
+      "comicId": 3,
+      "chapterNumber": 61,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:43:28.949Z"
+    },
+    {
+      "id": 391,
+      "comicId": 3,
+      "chapterNumber": 62,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:44:28.949Z"
+    },
+    {
+      "id": 392,
+      "comicId": 3,
+      "chapterNumber": 63,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:45:28.949Z"
+    },
+    {
+      "id": 393,
+      "comicId": 3,
+      "chapterNumber": 64,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:46:28.949Z"
+    },
+    {
+      "id": 394,
+      "comicId": 3,
+      "chapterNumber": 65,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:47:28.949Z"
+    },
+    {
+      "id": 395,
+      "comicId": 3,
+      "chapterNumber": 66,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:48:28.949Z"
+    },
+    {
+      "id": 396,
+      "comicId": 3,
+      "chapterNumber": 67,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:49:28.949Z"
+    },
+    {
+      "id": 397,
+      "comicId": 3,
+      "chapterNumber": 68,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:50:28.949Z"
+    },
+    {
+      "id": 398,
+      "comicId": 3,
+      "chapterNumber": 69,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:51:28.949Z"
+    },
+    {
+      "id": 399,
+      "comicId": 3,
+      "chapterNumber": 70,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:52:28.949Z"
+    },
+    {
+      "id": 400,
+      "comicId": 3,
+      "chapterNumber": 71,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:53:28.949Z"
+    },
+    {
+      "id": 401,
+      "comicId": 3,
+      "chapterNumber": 72,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:54:28.949Z"
+    },
+    {
+      "id": 402,
+      "comicId": 3,
+      "chapterNumber": 73,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:55:28.949Z"
+    },
+    {
+      "id": 403,
+      "comicId": 3,
+      "chapterNumber": 74,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:56:28.949Z"
+    },
+    {
+      "id": 404,
+      "comicId": 3,
+      "chapterNumber": 75,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:57:28.949Z"
+    },
+    {
+      "id": 405,
+      "comicId": 3,
+      "chapterNumber": 76,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:58:28.949Z"
+    },
+    {
+      "id": 406,
+      "comicId": 3,
+      "chapterNumber": 77,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:59:28.949Z"
+    },
+    {
+      "id": 407,
+      "comicId": 3,
+      "chapterNumber": 78,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:00:28.949Z"
+    },
+    {
+      "id": 408,
+      "comicId": 3,
+      "chapterNumber": 79,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:01:28.949Z"
+    },
+    {
+      "id": 409,
+      "comicId": 3,
+      "chapterNumber": 80,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:02:28.949Z"
+    },
+    {
+      "id": 410,
+      "comicId": 3,
+      "chapterNumber": 81,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:03:28.949Z"
+    },
+    {
+      "id": 411,
+      "comicId": 3,
+      "chapterNumber": 82,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Piece/page1.jpg",
+        "assets/images/Comics/One_Piece/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:04:28.949Z"
+    },
+    {
+      "id": 412,
+      "comicId": 4,
+      "chapterNumber": 42,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:25:28.949Z"
+    },
+    {
+      "id": 413,
+      "comicId": 4,
+      "chapterNumber": 43,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:26:28.949Z"
+    },
+    {
+      "id": 414,
+      "comicId": 4,
+      "chapterNumber": 44,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:27:28.949Z"
+    },
+    {
+      "id": 415,
+      "comicId": 4,
+      "chapterNumber": 45,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:28:28.949Z"
+    },
+    {
+      "id": 416,
+      "comicId": 4,
+      "chapterNumber": 46,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:29:28.949Z"
+    },
+    {
+      "id": 417,
+      "comicId": 4,
+      "chapterNumber": 47,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:30:28.949Z"
+    },
+    {
+      "id": 418,
+      "comicId": 4,
+      "chapterNumber": 48,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:31:28.949Z"
+    },
+    {
+      "id": 419,
+      "comicId": 4,
+      "chapterNumber": 49,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:32:28.949Z"
+    },
+    {
+      "id": 420,
+      "comicId": 4,
+      "chapterNumber": 50,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:33:28.949Z"
+    },
+    {
+      "id": 421,
+      "comicId": 4,
+      "chapterNumber": 51,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:34:28.949Z"
+    },
+    {
+      "id": 422,
+      "comicId": 4,
+      "chapterNumber": 52,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:35:28.949Z"
+    },
+    {
+      "id": 423,
+      "comicId": 4,
+      "chapterNumber": 53,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:36:28.949Z"
+    },
+    {
+      "id": 424,
+      "comicId": 4,
+      "chapterNumber": 54,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:37:28.949Z"
+    },
+    {
+      "id": 425,
+      "comicId": 4,
+      "chapterNumber": 55,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:38:28.949Z"
+    },
+    {
+      "id": 426,
+      "comicId": 4,
+      "chapterNumber": 56,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:39:28.949Z"
+    },
+    {
+      "id": 427,
+      "comicId": 4,
+      "chapterNumber": 57,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:40:28.949Z"
+    },
+    {
+      "id": 428,
+      "comicId": 4,
+      "chapterNumber": 58,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:41:28.949Z"
+    },
+    {
+      "id": 429,
+      "comicId": 4,
+      "chapterNumber": 59,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:42:28.949Z"
+    },
+    {
+      "id": 430,
+      "comicId": 4,
+      "chapterNumber": 60,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:43:28.949Z"
+    },
+    {
+      "id": 431,
+      "comicId": 4,
+      "chapterNumber": 61,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:44:28.949Z"
+    },
+    {
+      "id": 432,
+      "comicId": 4,
+      "chapterNumber": 62,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:45:28.949Z"
+    },
+    {
+      "id": 433,
+      "comicId": 4,
+      "chapterNumber": 63,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:46:28.949Z"
+    },
+    {
+      "id": 434,
+      "comicId": 4,
+      "chapterNumber": 64,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:47:28.949Z"
+    },
+    {
+      "id": 435,
+      "comicId": 4,
+      "chapterNumber": 65,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:48:28.949Z"
+    },
+    {
+      "id": 436,
+      "comicId": 4,
+      "chapterNumber": 66,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:49:28.949Z"
+    },
+    {
+      "id": 437,
+      "comicId": 4,
+      "chapterNumber": 67,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:50:28.949Z"
+    },
+    {
+      "id": 438,
+      "comicId": 4,
+      "chapterNumber": 68,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:51:28.949Z"
+    },
+    {
+      "id": 439,
+      "comicId": 4,
+      "chapterNumber": 69,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:52:28.949Z"
+    },
+    {
+      "id": 440,
+      "comicId": 4,
+      "chapterNumber": 70,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:53:28.949Z"
+    },
+    {
+      "id": 441,
+      "comicId": 4,
+      "chapterNumber": 71,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:54:28.949Z"
+    },
+    {
+      "id": 442,
+      "comicId": 4,
+      "chapterNumber": 72,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:55:28.949Z"
+    },
+    {
+      "id": 443,
+      "comicId": 4,
+      "chapterNumber": 73,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:56:28.949Z"
+    },
+    {
+      "id": 444,
+      "comicId": 4,
+      "chapterNumber": 74,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:57:28.949Z"
+    },
+    {
+      "id": 445,
+      "comicId": 4,
+      "chapterNumber": 75,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:58:28.949Z"
+    },
+    {
+      "id": 446,
+      "comicId": 4,
+      "chapterNumber": 76,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:59:28.949Z"
+    },
+    {
+      "id": 447,
+      "comicId": 4,
+      "chapterNumber": 77,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:00:28.949Z"
+    },
+    {
+      "id": 448,
+      "comicId": 4,
+      "chapterNumber": 78,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:01:28.949Z"
+    },
+    {
+      "id": 449,
+      "comicId": 4,
+      "chapterNumber": 79,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:02:28.949Z"
+    },
+    {
+      "id": 450,
+      "comicId": 4,
+      "chapterNumber": 80,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:03:28.949Z"
+    },
+    {
+      "id": 451,
+      "comicId": 4,
+      "chapterNumber": 81,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/One_Punch_Man/page1.jpeg",
+        "assets/images/Comics/One_Punch_Man/page2.jpeg",
+        "assets/images/Comics/One_Punch_Man/page3.jpeg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:04:28.949Z"
+    },
+    {
+      "id": 452,
+      "comicId": 5,
+      "chapterNumber": 43,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:25:28.949Z"
+    },
+    {
+      "id": 453,
+      "comicId": 5,
+      "chapterNumber": 44,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:26:28.949Z"
+    },
+    {
+      "id": 454,
+      "comicId": 5,
+      "chapterNumber": 45,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:27:28.949Z"
+    },
+    {
+      "id": 455,
+      "comicId": 5,
+      "chapterNumber": 46,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:28:28.949Z"
+    },
+    {
+      "id": 456,
+      "comicId": 5,
+      "chapterNumber": 47,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:29:28.949Z"
+    },
+    {
+      "id": 457,
+      "comicId": 5,
+      "chapterNumber": 48,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:30:28.949Z"
+    },
+    {
+      "id": 458,
+      "comicId": 5,
+      "chapterNumber": 49,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:31:28.949Z"
+    },
+    {
+      "id": 459,
+      "comicId": 5,
+      "chapterNumber": 50,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:32:28.949Z"
+    },
+    {
+      "id": 460,
+      "comicId": 5,
+      "chapterNumber": 51,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:33:28.949Z"
+    },
+    {
+      "id": 461,
+      "comicId": 5,
+      "chapterNumber": 52,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:34:28.949Z"
+    },
+    {
+      "id": 462,
+      "comicId": 5,
+      "chapterNumber": 53,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:35:28.949Z"
+    },
+    {
+      "id": 463,
+      "comicId": 5,
+      "chapterNumber": 54,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:36:28.949Z"
+    },
+    {
+      "id": 464,
+      "comicId": 5,
+      "chapterNumber": 55,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:37:28.949Z"
+    },
+    {
+      "id": 465,
+      "comicId": 5,
+      "chapterNumber": 56,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:38:28.949Z"
+    },
+    {
+      "id": 466,
+      "comicId": 5,
+      "chapterNumber": 57,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:39:28.949Z"
+    },
+    {
+      "id": 467,
+      "comicId": 5,
+      "chapterNumber": 58,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:40:28.949Z"
+    },
+    {
+      "id": 468,
+      "comicId": 5,
+      "chapterNumber": 59,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:41:28.949Z"
+    },
+    {
+      "id": 469,
+      "comicId": 5,
+      "chapterNumber": 60,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:42:28.949Z"
+    },
+    {
+      "id": 470,
+      "comicId": 5,
+      "chapterNumber": 61,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:43:28.949Z"
+    },
+    {
+      "id": 471,
+      "comicId": 5,
+      "chapterNumber": 62,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:44:28.949Z"
+    },
+    {
+      "id": 472,
+      "comicId": 5,
+      "chapterNumber": 63,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:45:28.949Z"
+    },
+    {
+      "id": 473,
+      "comicId": 5,
+      "chapterNumber": 64,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:46:28.949Z"
+    },
+    {
+      "id": 474,
+      "comicId": 5,
+      "chapterNumber": 65,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:47:28.949Z"
+    },
+    {
+      "id": 475,
+      "comicId": 5,
+      "chapterNumber": 66,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:48:28.949Z"
+    },
+    {
+      "id": 476,
+      "comicId": 5,
+      "chapterNumber": 67,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:49:28.949Z"
+    },
+    {
+      "id": 477,
+      "comicId": 5,
+      "chapterNumber": 68,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:50:28.949Z"
+    },
+    {
+      "id": 478,
+      "comicId": 5,
+      "chapterNumber": 69,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:51:28.949Z"
+    },
+    {
+      "id": 479,
+      "comicId": 5,
+      "chapterNumber": 70,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:52:28.949Z"
+    },
+    {
+      "id": 480,
+      "comicId": 5,
+      "chapterNumber": 71,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:53:28.949Z"
+    },
+    {
+      "id": 481,
+      "comicId": 5,
+      "chapterNumber": 72,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:54:28.949Z"
+    },
+    {
+      "id": 482,
+      "comicId": 5,
+      "chapterNumber": 73,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:55:28.949Z"
+    },
+    {
+      "id": 483,
+      "comicId": 5,
+      "chapterNumber": 74,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:56:28.949Z"
+    },
+    {
+      "id": 484,
+      "comicId": 5,
+      "chapterNumber": 75,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:57:28.949Z"
+    },
+    {
+      "id": 485,
+      "comicId": 5,
+      "chapterNumber": 76,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:58:28.949Z"
+    },
+    {
+      "id": 486,
+      "comicId": 5,
+      "chapterNumber": 77,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:59:28.949Z"
+    },
+    {
+      "id": 487,
+      "comicId": 5,
+      "chapterNumber": 78,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:00:28.949Z"
+    },
+    {
+      "id": 488,
+      "comicId": 5,
+      "chapterNumber": 79,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:01:28.949Z"
+    },
+    {
+      "id": 489,
+      "comicId": 5,
+      "chapterNumber": 80,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:02:28.949Z"
+    },
+    {
+      "id": 490,
+      "comicId": 5,
+      "chapterNumber": 81,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:03:28.949Z"
+    },
+    {
+      "id": 491,
+      "comicId": 5,
+      "chapterNumber": 82,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Naruto/page1.jpg",
+        "assets/images/Comics/Naruto/page2.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:04:28.949Z"
+    },
+    {
+      "id": 492,
+      "comicId": 6,
+      "chapterNumber": 42,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:25:28.949Z"
+    },
+    {
+      "id": 493,
+      "comicId": 6,
+      "chapterNumber": 43,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:26:28.949Z"
+    },
+    {
+      "id": 494,
+      "comicId": 6,
+      "chapterNumber": 44,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:27:28.949Z"
+    },
+    {
+      "id": 495,
+      "comicId": 6,
+      "chapterNumber": 45,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:28:28.949Z"
+    },
+    {
+      "id": 496,
+      "comicId": 6,
+      "chapterNumber": 46,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:29:28.949Z"
+    },
+    {
+      "id": 497,
+      "comicId": 6,
+      "chapterNumber": 47,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:30:28.949Z"
+    },
+    {
+      "id": 498,
+      "comicId": 6,
+      "chapterNumber": 48,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:31:28.949Z"
+    },
+    {
+      "id": 499,
+      "comicId": 6,
+      "chapterNumber": 49,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:32:28.949Z"
+    },
+    {
+      "id": 500,
+      "comicId": 6,
+      "chapterNumber": 50,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:33:28.949Z"
+    },
+    {
+      "id": 501,
+      "comicId": 6,
+      "chapterNumber": 51,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:34:28.949Z"
+    },
+    {
+      "id": 502,
+      "comicId": 6,
+      "chapterNumber": 52,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:35:28.949Z"
+    },
+    {
+      "id": 503,
+      "comicId": 6,
+      "chapterNumber": 53,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:36:28.949Z"
+    },
+    {
+      "id": 504,
+      "comicId": 6,
+      "chapterNumber": 54,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:37:28.949Z"
+    },
+    {
+      "id": 505,
+      "comicId": 6,
+      "chapterNumber": 55,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:38:28.949Z"
+    },
+    {
+      "id": 506,
+      "comicId": 6,
+      "chapterNumber": 56,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:39:28.949Z"
+    },
+    {
+      "id": 507,
+      "comicId": 6,
+      "chapterNumber": 57,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:40:28.949Z"
+    },
+    {
+      "id": 508,
+      "comicId": 6,
+      "chapterNumber": 58,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:41:28.949Z"
+    },
+    {
+      "id": 509,
+      "comicId": 6,
+      "chapterNumber": 59,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:42:28.949Z"
+    },
+    {
+      "id": 510,
+      "comicId": 6,
+      "chapterNumber": 60,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:43:28.949Z"
+    },
+    {
+      "id": 511,
+      "comicId": 6,
+      "chapterNumber": 61,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:44:28.949Z"
+    },
+    {
+      "id": 512,
+      "comicId": 6,
+      "chapterNumber": 62,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:45:28.949Z"
+    },
+    {
+      "id": 513,
+      "comicId": 6,
+      "chapterNumber": 63,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:46:28.949Z"
+    },
+    {
+      "id": 514,
+      "comicId": 6,
+      "chapterNumber": 64,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:47:28.949Z"
+    },
+    {
+      "id": 515,
+      "comicId": 6,
+      "chapterNumber": 65,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:48:28.949Z"
+    },
+    {
+      "id": 516,
+      "comicId": 6,
+      "chapterNumber": 66,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:49:28.949Z"
+    },
+    {
+      "id": 517,
+      "comicId": 6,
+      "chapterNumber": 67,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:50:28.949Z"
+    },
+    {
+      "id": 518,
+      "comicId": 6,
+      "chapterNumber": 68,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:51:28.949Z"
+    },
+    {
+      "id": 519,
+      "comicId": 6,
+      "chapterNumber": 69,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:52:28.949Z"
+    },
+    {
+      "id": 520,
+      "comicId": 6,
+      "chapterNumber": 70,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:53:28.949Z"
+    },
+    {
+      "id": 521,
+      "comicId": 6,
+      "chapterNumber": 71,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:54:28.949Z"
+    },
+    {
+      "id": 522,
+      "comicId": 6,
+      "chapterNumber": 72,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:55:28.949Z"
+    },
+    {
+      "id": 523,
+      "comicId": 6,
+      "chapterNumber": 73,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:56:28.949Z"
+    },
+    {
+      "id": 524,
+      "comicId": 6,
+      "chapterNumber": 74,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:57:28.949Z"
+    },
+    {
+      "id": 525,
+      "comicId": 6,
+      "chapterNumber": 75,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:58:28.949Z"
+    },
+    {
+      "id": 526,
+      "comicId": 6,
+      "chapterNumber": 76,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:59:28.950Z"
+    },
+    {
+      "id": 527,
+      "comicId": 6,
+      "chapterNumber": 77,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:00:28.950Z"
+    },
+    {
+      "id": 528,
+      "comicId": 6,
+      "chapterNumber": 78,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:01:28.950Z"
+    },
+    {
+      "id": 529,
+      "comicId": 6,
+      "chapterNumber": 79,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:02:28.950Z"
+    },
+    {
+      "id": 530,
+      "comicId": 6,
+      "chapterNumber": 80,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:03:28.950Z"
+    },
+    {
+      "id": 531,
+      "comicId": 6,
+      "chapterNumber": 81,
+      "title": "",
+      "pages": [
+        "assets/images/Comics/Dragon_Ball/page1.jpg",
+        "assets/images/Comics/Dragon_Ball/page2.jpg",
+        "assets/images/Comics/Dragon_Ball/page3.jpg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:04:28.950Z"
+    },
+    {
+      "id": 532,
+      "comicId": 7,
+      "chapterNumber": 41,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:25:28.950Z"
+    },
+    {
+      "id": 533,
+      "comicId": 7,
+      "chapterNumber": 42,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:26:28.950Z"
+    },
+    {
+      "id": 534,
+      "comicId": 7,
+      "chapterNumber": 43,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:27:28.950Z"
+    },
+    {
+      "id": 535,
+      "comicId": 7,
+      "chapterNumber": 44,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:28:28.950Z"
+    },
+    {
+      "id": 536,
+      "comicId": 7,
+      "chapterNumber": 45,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:29:28.950Z"
+    },
+    {
+      "id": 537,
+      "comicId": 7,
+      "chapterNumber": 46,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:30:28.950Z"
+    },
+    {
+      "id": 538,
+      "comicId": 7,
+      "chapterNumber": 47,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:31:28.950Z"
+    },
+    {
+      "id": 539,
+      "comicId": 7,
+      "chapterNumber": 48,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:32:28.950Z"
+    },
+    {
+      "id": 540,
+      "comicId": 7,
+      "chapterNumber": 49,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:33:28.950Z"
+    },
+    {
+      "id": 541,
+      "comicId": 7,
+      "chapterNumber": 50,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:34:28.950Z"
+    },
+    {
+      "id": 542,
+      "comicId": 7,
+      "chapterNumber": 51,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:35:28.950Z"
+    },
+    {
+      "id": 543,
+      "comicId": 7,
+      "chapterNumber": 52,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:36:28.950Z"
+    },
+    {
+      "id": 544,
+      "comicId": 7,
+      "chapterNumber": 53,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:37:28.950Z"
+    },
+    {
+      "id": 545,
+      "comicId": 7,
+      "chapterNumber": 54,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:38:28.950Z"
+    },
+    {
+      "id": 546,
+      "comicId": 7,
+      "chapterNumber": 55,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:39:28.950Z"
+    },
+    {
+      "id": 547,
+      "comicId": 7,
+      "chapterNumber": 56,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:40:28.950Z"
+    },
+    {
+      "id": 548,
+      "comicId": 7,
+      "chapterNumber": 57,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:41:28.950Z"
+    },
+    {
+      "id": 549,
+      "comicId": 7,
+      "chapterNumber": 58,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:42:28.950Z"
+    },
+    {
+      "id": 550,
+      "comicId": 7,
+      "chapterNumber": 59,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:43:28.950Z"
+    },
+    {
+      "id": 551,
+      "comicId": 7,
+      "chapterNumber": 60,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:44:28.950Z"
+    },
+    {
+      "id": 552,
+      "comicId": 7,
+      "chapterNumber": 61,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:45:28.950Z"
+    },
+    {
+      "id": 553,
+      "comicId": 7,
+      "chapterNumber": 62,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:46:28.950Z"
+    },
+    {
+      "id": 554,
+      "comicId": 7,
+      "chapterNumber": 63,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:47:28.950Z"
+    },
+    {
+      "id": 555,
+      "comicId": 7,
+      "chapterNumber": 64,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:48:28.950Z"
+    },
+    {
+      "id": 556,
+      "comicId": 7,
+      "chapterNumber": 65,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:49:28.950Z"
+    },
+    {
+      "id": 557,
+      "comicId": 7,
+      "chapterNumber": 66,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:50:28.950Z"
+    },
+    {
+      "id": 558,
+      "comicId": 7,
+      "chapterNumber": 67,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:51:28.950Z"
+    },
+    {
+      "id": 559,
+      "comicId": 7,
+      "chapterNumber": 68,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:52:28.950Z"
+    },
+    {
+      "id": 560,
+      "comicId": 7,
+      "chapterNumber": 69,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:53:28.950Z"
+    },
+    {
+      "id": 561,
+      "comicId": 7,
+      "chapterNumber": 70,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:54:28.950Z"
+    },
+    {
+      "id": 562,
+      "comicId": 7,
+      "chapterNumber": 71,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:55:28.950Z"
+    },
+    {
+      "id": 563,
+      "comicId": 7,
+      "chapterNumber": 72,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:56:28.950Z"
+    },
+    {
+      "id": 564,
+      "comicId": 7,
+      "chapterNumber": 73,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:57:28.950Z"
+    },
+    {
+      "id": 565,
+      "comicId": 7,
+      "chapterNumber": 74,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:58:28.950Z"
+    },
+    {
+      "id": 566,
+      "comicId": 7,
+      "chapterNumber": 75,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T15:59:28.950Z"
+    },
+    {
+      "id": 567,
+      "comicId": 7,
+      "chapterNumber": 76,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:00:28.950Z"
+    },
+    {
+      "id": 568,
+      "comicId": 7,
+      "chapterNumber": 77,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:01:28.950Z"
+    },
+    {
+      "id": 569,
+      "comicId": 7,
+      "chapterNumber": 78,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:02:28.950Z"
+    },
+    {
+      "id": 570,
+      "comicId": 7,
+      "chapterNumber": 79,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:03:28.950Z"
+    },
+    {
+      "id": 571,
+      "comicId": 7,
+      "chapterNumber": 80,
+      "title": "",
+      "pages": [
+        "assets/images/placeholder.svg"
+      ],
+      "price": 10,
+      "createdAt": "2026-05-24T16:04:28.950Z"
     }
   ],
   "bookmarks": [
@@ -350,6 +7328,28 @@
       "id": 5,
       "name": "Viễn tưởng",
       "slug": "sci-fi"
+    }
+  ],
+  "cart": [],
+  "purchases": [],
+  "comments": [
+    {
+      "id": 1,
+      "comicId": 1,
+      "userId": 5,
+      "userDisplayName": "mixigaming",
+      "userAvatar": "",
+      "content": "Truyện này càng đọc càng hay các bác ạ! Main bá đạo dã man.",
+      "createdAt": "2026-05-24T15:29:43.047Z"
+    },
+    {
+      "id": 2,
+      "comicId": 1,
+      "userId": 3,
+      "userDisplayName": "Đức Anh Lê",
+      "userAvatar": "",
+      "content": "Nét vẽ siêu đẹp, cốt truyện lôi cuốn. Mong admin cập nhật chương mới sớm sớm nha!",
+      "createdAt": "2026-05-24T15:35:59.000Z"
     }
   ]
 }

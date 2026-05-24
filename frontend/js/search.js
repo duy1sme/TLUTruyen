@@ -38,7 +38,7 @@ async function loadAllComics() {
   if (!container) return;
 
   try {
-    const comics = await getComics({ limit: 50 });
+    const comics = await getComics({ limit: 50, filters: { approved: true } });
     window.__allComics = comics;
     container.innerHTML = comics.map((c, i) => renderComicCard(c, i)).join('');
   } catch (err) {

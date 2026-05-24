@@ -25,14 +25,28 @@ function renderNavbar(activePage) {
 
   const authButtons = isLogged
     ? `
-      <div class="d-flex align-items-center gap-2">
-        ${isAdmin ? `<a href="${base}pages/admin/dashboard.html" class="btn btn-sm btn-cw-outline">
+      <div class="d-flex align-items-center gap-3">
+        ${isAdmin ? `<a href="${base}pages/admin/dashboard.html" class="btn btn-sm btn-cw-outline px-3 py-1.5" style="font-size: 0.8rem;">
           <i class="bi bi-speedometer2"></i> Quản trị
         </a>` : ''}
+        
+        <a href="${base}pages/profile.html?tab=cart" class="text-decoration-none position-relative me-1" title="Giỏ hàng">
+          <i class="bi bi-cart3" style="font-size: 1.2rem; color: var(--text-secondary); transition: color var(--transition-fast);"></i>
+        </a>
+
         <span class="text-secondary small d-none d-md-inline">
-          <i class="bi bi-person-circle"></i> ${user?.displayName || user?.email || ''}
+          <a href="${base}pages/profile.html" class="text-decoration-none d-flex align-items-center gap-2" style="color: var(--text-primary);">
+            <img src="${user?.avatar ? user.avatar : base + 'assets/images/placeholder.svg'}" 
+                 style="width: 28px; height: 28px; border-radius: 50%; object-fit: cover; border: 1.5px solid var(--color-primary);" 
+                 onerror="this.src='${base}assets/images/placeholder.svg'">
+            <span class="fw-semibold">${user?.displayName || user?.email?.split('@')[0] || ''}</span>
+            <span class="badge rounded-pill d-flex align-items-center gap-1" style="background: rgba(230, 36, 41, 0.15); color: #E62429; font-size: 0.75rem; border: 1px solid rgba(230, 36, 41, 0.3);">
+              <i class="bi bi-coin text-warning"></i>
+              <span>${user?.coins !== undefined ? user.coins : 0} Xu</span>
+            </span>
+          </a>
         </span>
-        <button onclick="Auth.logout(); location.reload();" class="btn btn-sm btn-cw-primary">
+        <button onclick="Auth.logout(); location.href='${base}index.html';" class="btn btn-sm btn-cw-primary px-3 py-1.5" style="font-size: 0.8rem;">
           <i class="bi bi-box-arrow-right"></i> Đăng xuất
         </button>
       </div>

@@ -140,3 +140,141 @@ async function updateReadingHistory(userId, comicId, chapterId, lastPage) {
   }
   return fetchAPI('/readingHistory', { method: 'POST', body: JSON.stringify(data) });
 }
+
+/* ─── Cart (Giỏ hàng) ─────────────────────────────────────── */
+
+/** Lấy giỏ hàng của user */
+async function getCart(userId) {
+  return fetchAPI(`/cart?userId=${userId}`);
+}
+
+/** Thêm vào giỏ hàng */
+async function addToCart(userId, comicId, chapterId, price) {
+  // Tránh add trùng
+  const existing = await fetchAPI(`/cart?userId=${userId}&comicId=${comicId}&chapterId=${chapterId}`);
+  if (existing && existing.length > 0) {
+    return existing[0]; // Đã có rồi thì return luôn
+  }
+  return fetchAPI('/cart', {
+    method: 'POST',
+    body: JSON.stringify({
+      userId,
+      comicId,
+      chapterId,
+      price,
+      createdAt: new Date().toISOString()
+    })
+  });
+}
+
+/** Xoá khỏi giỏ hàng */
+async function removeFromCart(cartId) {
+  return fetchAPI(`/cart/${cartId}`, { method: 'DELETE' });
+}
+
+/* ─── Purchases (Mua truyện/chương) ─────────────────────────── */
+
+/** Lấy danh sách đã mua của user */
+async function getPurchases(userId) {
+  return fetchAPI(`/purchases?userId=${userId}`);
+}
+
+/** Mua một chương truyện */
+async function createPurchase(userId, comicId, chapterId, price) {
+  return fetchAPI('/purchases', {
+    method: 'POST',
+    body: JSON.stringify({
+      userId,
+      comicId,
+      chapterId,
+      price,
+      createdAt: new Date().toISOString()
+    })
+  });
+}
+
+/* ─── User Coins (Xu tài khoản) ────────────────────────────────── */
+
+/** Cập nhật xu của user */
+async function updateUserCoins(userId, coins) {
+  const result = await fetchAPI(`/users/${userId}`, {
+    method: 'PATCH',
+    body: JSON.stringify({ coins })
+  });
+  
+  if (result) {
+    // Đồng bộ lại local storage
+    const currentUser = Auth.getCurrentUser();
+    if (currentUser && currentUser.id === userId) {
+      currentUser.coins = coins;
+      localStorage.setItem(CONFIG.USER_KEY, JSON.stringify(currentUser));
+    }
+  }
+  return result;
+}
+
+/* ─── Comments (Bình luận) ────────────────────────────────────── */
+
+/** Lấy danh sách bình luận của truyện */
+async function getCommentsByComic(comicId) {
+  return fetchAPI(`/comments?comicId=${comicId}&_sort=createdAt&_order=desc`);
+}
+
+/** Đăng bình luận mới */
+async function addComment(comicId, content) {
+  const user = Auth.getCurrentUser();
+  if (!user) throw new Error('Vui lòng đăng nhập để bình luận');
+
+  return fetchAPI('/comments', {
+    method: 'POST',
+    body: JSON.stringify({
+      comicId: parseInt(comicId),
+      userId: user.id,
+      userDisplayName: user.displayName || user.email,
+      userAvatar: user.avatar || '',
+      content: content,
+      createdAt: new Date().toISOString()
+    })
+  });
+}
+
+/** Xoá bình luận */
+async function deleteComment(commentId) {
+  return fetchAPI(`/comments/${commentId}`, { method: 'DELETE' });
+}
+
+/* ─── User Upload & Admin Approval ──────────────────────────── */
+
+/** Đăng truyện mới bởi User (chờ duyệt) */
+async function createComicByUser(data) {
+  const user = Auth.getCurrentUser();
+  if (!user) throw new Error('Vui lòng đăng nhập để thực hiện');
+
+  return fetchAPI('/comics', {
+    method: 'POST',
+    body: JSON.stringify({
+      ...data,
+      views: 0,
+      rating: 5.0,
+      totalChapters: 0,
+      approved: false,
+      uploaderId: user.id,
+      createdAt: new Date().toISOString(),
+      updatedAt: new Date().toISOString()
+    })
+  });
+}
+
+/** Lấy danh sách truyện đang chờ duyệt */
+async function getPendingComics() {
+  return fetchAPI('/comics?approved=false');
+}
+
+/** Phê duyệt truyện */
+async function approveComic(comicId) {
+  return fetchAPI(`/comics/${comicId}`, {
+    method: 'PATCH',
+    body: JSON.stringify({ approved: true })
+  });
+}
+

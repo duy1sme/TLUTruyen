@@ -58,6 +58,12 @@ const rules = auth.rewriter({
   readingHistory: 660,
   // Users: chỉ owner xem/sửa
   users: 600,
+  // Giỏ hàng: chỉ owner xem/sửa
+  cart: 660,
+  // Lịch sử mua: chỉ owner xem/sửa
+  purchases: 660,
+  // Bình luận: ai cũng đọc được, chỉ user đăng nhập mới được đăng
+  comments: 664,
 });
 
 // ─── Apply middleware theo thứ tự ─────────────────────────

@@ -44,6 +44,7 @@ const Auth = {
         displayName: displayName || email.split('@')[0],
         role: 'user',
         avatar: '',
+        coins: 100, // Khởi tạo 100 xu
         createdAt: new Date().toISOString(),
       }),
     });
