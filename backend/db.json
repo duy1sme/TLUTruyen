@@ -21,17 +21,6 @@
       "id": 5
     },
     {
-      "id": 6,
-      "email": "admin@tlutruyen.vn",
-      "password": "$2b$10$8wiR4yEYgaQLmD4u3XJXeuoomqK5lZt0uxFybKrFAoW/wX7lPgnsK",
-      "displayName": "Quản Trị Viên",
-      "username": "admin",
-      "role": "admin",
-      "status": "active",
-      "avatar": "https://scontent.fhan15-2.fna.fbcdn.net/v/t39.30808-1/509007504_708951821747507_5276150440487953485_n.jpg?stp=cp0_dst-jpg_s60x60_tt6&_nc_cat=100&ccb=1-7&_nc_sid=e99d92&_nc_eui2=AeGKvxRNQKuoz9XKtYpFPzwY-0-b_7KfLdP7T5v_sp8t04ViD2Y_-4S7xM-dRK4u4cJNa8xCZktgbB0J_rCHaYHc&_nc_ohc=PSN5sxTsTrgQ7kNvwF1-63U&_nc_oc=Adput4OKCrWR2_8GaBDFUXvi6uEgWZ3TRu0Y062m9slrgRgTyu1SqkD4wo_rJZj0A1fDx13rRBUqHb5nuCesztjB&_nc_zt=24&_nc_ht=scontent.fhan15-2.fna&_nc_gid=o_iBmqJJ9tYXYokVVWf9zw&_nc_ss=7b2a8&oh=00_Af_ybQtakI1Neq5hEvGgftNiDEgshfTc9ZceBOXbS2Hd9w&oe=6A235106",
-      "createdAt": "2026-06-01T10:01:13.517Z"
-    },
-    {
       "email": "mingw34@gmail.com",
       "password": "$2a$10$HrM7AjGcG2tSiImckbSCB.iLvyK8AYhkLEJSrSUmt1vnDQyzAkrNC",
       "displayName": "mingw34",
@@ -42,6 +31,17 @@
       "coins": 100,
       "createdAt": "2026-06-01T11:53:02.975Z",
       "id": 7
+    },
+    {
+      "id": 8,
+      "email": "admin@tlutruyen.vn",
+      "password": "$2b$10$XPMkVQq36t6O3J3aaHWg8.LvQp9u5MmdFj2JxbG3wIkjY5zeY4bKm",
+      "displayName": "Quản Trị Viên",
+      "username": "admin",
+      "role": "admin",
+      "status": "active",
+      "avatar": "",
+      "createdAt": "2026-06-01T16:02:04.118Z"
     }
   ],
   "comics": [
@@ -476,36 +476,12 @@
       "id": 1
     },
     {
-      "userId": 6,
-      "comicId": 4,
-      "chapterId": 10,
-      "lastPage": 1,
-      "updatedAt": "2026-06-01T12:01:37.614Z",
-      "id": 2
-    },
-    {
-      "userId": 6,
-      "comicId": 1,
-      "chapterId": 1,
-      "lastPage": 1,
-      "updatedAt": "2026-06-01T12:06:32.392Z",
-      "id": 3
-    },
-    {
-      "userId": 6,
-      "comicId": 5,
-      "chapterId": 11,
-      "lastPage": 1,
-      "updatedAt": "2026-06-01T12:06:41.608Z",
-      "id": 4
-    },
-    {
-      "userId": 6,
+      "userId": 4,
       "comicId": 6,
       "chapterId": 14,
       "lastPage": 1,
-      "updatedAt": "2026-06-01T12:36:45.586Z",
-      "id": 5
+      "updatedAt": "2026-06-01T15:27:05.177Z",
+      "id": 6
     }
   ],
   "genres": [
@@ -537,15 +513,5 @@
   ],
   "cart": [],
   "purchases": [],
-  "comments": [
-    {
-      "comicId": 3,
-      "userId": 6,
-      "userDisplayName": "Quản Trị Viên",
-      "userAvatar": "https://scontent.fhan15-2.fna.fbcdn.net/v/t39.30808-1/509007504_708951821747507_5276150440487953485_n.jpg?stp=cp0_dst-jpg_s60x60_tt6&_nc_cat=100&ccb=1-7&_nc_sid=e99d92&_nc_eui2=AeGKvxRNQKuoz9XKtYpFPzwY-0-b_7KfLdP7T5v_sp8t04ViD2Y_-4S7xM-dRK4u4cJNa8xCZktgbB0J_rCHaYHc&_nc_ohc=PSN5sxTsTrgQ7kNvwF1-63U&_nc_oc=Adput4OKCrWR2_8GaBDFUXvi6uEgWZ3TRu0Y062m9slrgRgTyu1SqkD4wo_rJZj0A1fDx13rRBUqHb5nuCesztjB&_nc_zt=24&_nc_ht=scontent.fhan15-2.fna&_nc_gid=o_iBmqJJ9tYXYokVVWf9zw&_nc_ss=7b2a8&oh=00_Af_ybQtakI1Neq5hEvGgftNiDEgshfTc9ZceBOXbS2Hd9w&oe=6A235106",
-      "content": "mid piece thật sự overated. có thể nói là rác phẩm",
-      "createdAt": "2026-06-01T12:02:18.928Z",
-      "id": 2
-    }
-  ]
+  "comments": []
 }

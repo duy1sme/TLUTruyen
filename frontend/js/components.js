@@ -10,6 +10,9 @@
  * @param {string} activePage - ID trang hiện tại đang hoạt động ('home', 'search', v.v.).
  */
 function initComponents(activePage = '') {
+  if (window.location.pathname.endsWith('dashboard.html')) {
+    return;
+  }
   renderNavbar(activePage);
   renderFooter();
 }
