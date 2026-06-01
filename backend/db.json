@@ -28,8 +28,20 @@
       "username": "admin",
       "role": "admin",
       "status": "active",
-      "avatar": "",
+      "avatar": "https://scontent.fhan15-2.fna.fbcdn.net/v/t39.30808-1/509007504_708951821747507_5276150440487953485_n.jpg?stp=cp0_dst-jpg_s60x60_tt6&_nc_cat=100&ccb=1-7&_nc_sid=e99d92&_nc_eui2=AeGKvxRNQKuoz9XKtYpFPzwY-0-b_7KfLdP7T5v_sp8t04ViD2Y_-4S7xM-dRK4u4cJNa8xCZktgbB0J_rCHaYHc&_nc_ohc=PSN5sxTsTrgQ7kNvwF1-63U&_nc_oc=Adput4OKCrWR2_8GaBDFUXvi6uEgWZ3TRu0Y062m9slrgRgTyu1SqkD4wo_rJZj0A1fDx13rRBUqHb5nuCesztjB&_nc_zt=24&_nc_ht=scontent.fhan15-2.fna&_nc_gid=o_iBmqJJ9tYXYokVVWf9zw&_nc_ss=7b2a8&oh=00_Af_ybQtakI1Neq5hEvGgftNiDEgshfTc9ZceBOXbS2Hd9w&oe=6A235106",
       "createdAt": "2026-06-01T10:01:13.517Z"
+    },
+    {
+      "email": "mingw34@gmail.com",
+      "password": "$2a$10$HrM7AjGcG2tSiImckbSCB.iLvyK8AYhkLEJSrSUmt1vnDQyzAkrNC",
+      "displayName": "mingw34",
+      "username": "mingw34",
+      "role": "admin",
+      "status": "active",
+      "avatar": "",
+      "coins": 100,
+      "createdAt": "2026-06-01T11:53:02.975Z",
+      "id": 7
     }
   ],
   "comics": [
@@ -95,6 +107,123 @@
       "createdAt": "2026-06-01T09:52:49.728Z",
       "updatedAt": "2026-06-01T09:53:42.986Z",
       "id": 3
+    },
+    {
+      "title": "7 viên ngọc rồng",
+      "slug": "7-vien-ngoc-rong",
+      "description": "",
+      "coverImage": "assets/images/cover_images/7_vien_ngoc_rong_cover.jpg",
+      "author": "Toriyama",
+      "artist": "Toriyama",
+      "genres": [
+        "action",
+        "adventure",
+        "martial-arts"
+      ],
+      "status": "ongoing",
+      "rating": 5,
+      "views": 0,
+      "totalChapters": 1,
+      "approved": true,
+      "uploaderId": null,
+      "createdAt": "2026-06-01T12:01:16.746Z",
+      "updatedAt": "2026-06-01T12:01:16.746Z",
+      "id": 4
+    },
+    {
+      "title": "Attack on titans",
+      "slug": "attack-on-titans",
+      "description": "",
+      "coverImage": "assets/images/cover_images/Attack_on_titans_cover.jpg",
+      "author": "Hajime isayama",
+      "artist": "unknow",
+      "genres": [
+        "action",
+        "horror",
+        "tragedy",
+        "historical"
+      ],
+      "status": "ongoing",
+      "rating": 5,
+      "views": 0,
+      "totalChapters": 3,
+      "approved": true,
+      "uploaderId": null,
+      "createdAt": "2026-06-01T12:05:42.722Z",
+      "updatedAt": "2026-06-01T12:08:49.784Z",
+      "id": 5
+    },
+    {
+      "title": "Monkey Peak",
+      "slug": "monkey-peak",
+      "description": "Một chuyến đi leo núi của công ty bỗng chốc biến thành thảm kịch khi họ bị săn lùng bởi một con khỉ khổng lồ khát máu. Sinh tồn, phản bội và nỗi sợ hãi tột cùng bắt đầu.",
+      "coverImage": "assets/images/cover_images/Monkey_Peak.jpg",
+      "author": "Kouji Shinasaka",
+      "artist": "Akihiro Kumeta",
+      "genres": [
+        "action",
+        "horror",
+        "adventure",
+        "tragedy"
+      ],
+      "status": "ongoing",
+      "rating": 5,
+      "views": 0,
+      "totalChapters": 1,
+      "approved": true,
+      "uploaderId": null,
+      "createdAt": "2026-06-01T12:35:57.456Z",
+      "updatedAt": "2026-06-01T12:35:57.457Z",
+      "id": 6
+    },
+    {
+      "title": "Good Night, PunPun",
+      "slug": "good-night-punpun",
+      "description": "Meet Punpun Punyama. He’s an average kid in an average town. He wants to win a Nobel Prize and save the world.\nHe wants the girl he has a crush on to like him back. He wants to find some porn. That’s what he wants, but what does he get?",
+      "coverImage": "assets/images/cover_images/Good_Night_PunPun_cover.png",
+      "author": "ASANO Inio",
+      "artist": "ASANO Inio",
+      "genres": [
+        "tragedy",
+        "seinen",
+        "slice-of-life",
+        "adult",
+        "psychological",
+        "comedy",
+        "drama"
+      ],
+      "status": "ongoing",
+      "rating": 5,
+      "views": 0,
+      "totalChapters": 1,
+      "approved": true,
+      "uploaderId": null,
+      "createdAt": "2026-06-01T12:46:52.944Z",
+      "updatedAt": "2026-06-01T12:46:52.944Z",
+      "id": 7
+    },
+    {
+      "title": "Mắc Kẹt Trên Mặt Trăng",
+      "slug": "mac-ket-tren-mat-trang",
+      "description": "",
+      "coverImage": "assets/images/cover_images/Mac_Ket_Tren_Mat_Trang_cover.jpg",
+      "author": "unknow",
+      "artist": "unknow",
+      "genres": [
+        "slice-of-life",
+        "adult",
+        "psychological",
+        "comedy"
+      ],
+      "status": "ongoing",
+      "rating": 5,
+      "views": 0,
+      "totalChapters": 1,
+      "approved": true,
+      "uploaderId": null,
+      "createdAt": "2026-06-01T12:57:43.299Z",
+      "updatedAt": "2026-06-01T12:57:43.299Z",
+      "id": 8
     }
   ],
   "chapters": [
@@ -204,6 +333,136 @@
       "updatedAt": "2026-06-01T09:53:42.938Z",
       "createdAt": "2026-06-01T09:53:42.938Z",
       "id": 9
+    },
+    {
+      "comicId": 4,
+      "chapterNumber": 1,
+      "title": "Chương 1",
+      "pages": [
+        "assets/images/Comics/7_vien_ngoc_rong/chapter_1/page_1.jpg",
+        "assets/images/Comics/7_vien_ngoc_rong/chapter_1/page_2.jpg",
+        "assets/images/Comics/7_vien_ngoc_rong/chapter_1/page_3.jpg"
+      ],
+      "price": 0,
+      "createdAt": "2026-06-01T12:01:16.746Z",
+      "id": 10
+    },
+    {
+      "comicId": 5,
+      "chapterNumber": 1,
+      "title": "Chương 1",
+      "pages": [
+        "assets/images/Comics/Attack_on_titans/chapter_1/page_1.jpg",
+        "assets/images/Comics/Attack_on_titans/chapter_1/page_2.jpg"
+      ],
+      "price": 0,
+      "createdAt": "2026-06-01T12:05:42.722Z",
+      "id": 11
+    },
+    {
+      "comicId": 5,
+      "chapterNumber": 2,
+      "title": "Chương 2",
+      "price": 0,
+      "pages": [
+        "assets/images/Comics/Attack_on_titans/chapter_2/page_1.jpg",
+        "assets/images/Comics/Attack_on_titans/chapter_2/page_2.jpg",
+        "assets/images/Comics/Attack_on_titans/chapter_2/page_3.jpg"
+      ],
+      "updatedAt": "2026-06-01T12:06:13.048Z",
+      "createdAt": "2026-06-01T12:06:13.048Z",
+      "id": 12
+    },
+    {
+      "comicId": 5,
+      "chapterNumber": 3,
+      "title": "Chương 3",
+      "price": 0,
+      "pages": [
+        "assets/images/Comics/Attack_on_titans/chapter_3/page_1.jpg",
+        "assets/images/Comics/Attack_on_titans/chapter_3/page_2.jpg"
+      ],
+      "updatedAt": "2026-06-01T12:06:24.164Z",
+      "createdAt": "2026-06-01T12:06:24.164Z",
+      "id": 13
+    },
+    {
+      "comicId": 6,
+      "chapterNumber": 1,
+      "title": "Chương 1",
+      "pages": [
+        "assets/images/Comics/Monkey_Peak/1.jpg",
+        "assets/images/Comics/Monkey_Peak/2.jpg",
+        "assets/images/Comics/Monkey_Peak/3.jpg",
+        "assets/images/Comics/Monkey_Peak/4.jpg",
+        "assets/images/Comics/Monkey_Peak/5.jpg",
+        "assets/images/Comics/Monkey_Peak/6.jpg",
+        "assets/images/Comics/Monkey_Peak/7.jpg",
+        "assets/images/Comics/Monkey_Peak/8.jpg",
+        "assets/images/Comics/Monkey_Peak/9.jpg",
+        "assets/images/Comics/Monkey_Peak/10.jpg",
+        "assets/images/Comics/Monkey_Peak/11.jpg",
+        "assets/images/Comics/Monkey_Peak/12.jpg",
+        "assets/images/Comics/Monkey_Peak/13.jpg",
+        "assets/images/Comics/Monkey_Peak/14.jpg",
+        "assets/images/Comics/Monkey_Peak/15.jpg",
+        "assets/images/Comics/Monkey_Peak/16.jpg",
+        "assets/images/Comics/Monkey_Peak/17.jpg",
+        "assets/images/Comics/Monkey_Peak/18.jpg",
+        "assets/images/Comics/Monkey_Peak/19.jpg",
+        "assets/images/Comics/Monkey_Peak/20.jpg",
+        "assets/images/Comics/Monkey_Peak/21.jpg",
+        "assets/images/Comics/Monkey_Peak/22.jpg",
+        "assets/images/Comics/Monkey_Peak/23.jpg",
+        "assets/images/Comics/Monkey_Peak/24.jpg",
+        "assets/images/Comics/Monkey_Peak/25.jpg",
+        "assets/images/Comics/Monkey_Peak/26.jpg",
+        "assets/images/Comics/Monkey_Peak/27.jpg",
+        "assets/images/Comics/Monkey_Peak/28.jpg",
+        "assets/images/Comics/Monkey_Peak/29.jpg",
+        "assets/images/Comics/Monkey_Peak/30.jpg",
+        "assets/images/Comics/Monkey_Peak/31.jpg",
+        "assets/images/Comics/Monkey_Peak/32.jpg",
+        "assets/images/Comics/Monkey_Peak/33.jpg",
+        "assets/images/Comics/Monkey_Peak/34.jpg",
+        "assets/images/Comics/Monkey_Peak/35.jpg",
+        "assets/images/Comics/Monkey_Peak/36.jpg",
+        "assets/images/Comics/Monkey_Peak/37.jpg",
+        "assets/images/Comics/Monkey_Peak/38.jpg"
+      ],
+      "price": 0,
+      "createdAt": "2026-06-01T12:35:57.457Z",
+      "updatedAt": "2026-06-01T12:35:57.457Z",
+      "id": 14
+    },
+    {
+      "comicId": 7,
+      "chapterNumber": 1,
+      "title": "Chương 1",
+      "pages": [
+        "assets/images/Comics/Good_Night_PunPun/chapter_1/page_1.png",
+        "assets/images/Comics/Good_Night_PunPun/chapter_1/page_2.png",
+        "assets/images/Comics/Good_Night_PunPun/chapter_1/page_3.png"
+      ],
+      "price": 0,
+      "createdAt": "2026-06-01T12:46:52.944Z",
+      "id": 15
+    },
+    {
+      "comicId": 8,
+      "chapterNumber": 1,
+      "title": "Chương 1",
+      "pages": [
+        "assets/images/Comics/Mac_Ket_Tren_Mat_Trang/chapter_1/page_1.jpg",
+        "assets/images/Comics/Mac_Ket_Tren_Mat_Trang/chapter_1/page_2.jpg",
+        "assets/images/Comics/Mac_Ket_Tren_Mat_Trang/chapter_1/page_3.jpg",
+        "assets/images/Comics/Mac_Ket_Tren_Mat_Trang/chapter_1/page_4.jpg",
+        "assets/images/Comics/Mac_Ket_Tren_Mat_Trang/chapter_1/page_5.jpg",
+        "assets/images/Comics/Mac_Ket_Tren_Mat_Trang/chapter_1/page_6.jpg"
+      ],
+      "price": 0,
+      "createdAt": "2026-06-01T12:57:43.299Z",
+      "id": 16
     }
   ],
   "bookmarks": [],
@@ -215,6 +474,38 @@
       "lastPage": 1,
       "updatedAt": "2026-06-01T09:54:26.904Z",
       "id": 1
+    },
+    {
+      "userId": 6,
+      "comicId": 4,
+      "chapterId": 10,
+      "lastPage": 1,
+      "updatedAt": "2026-06-01T12:01:37.614Z",
+      "id": 2
+    },
+    {
+      "userId": 6,
+      "comicId": 1,
+      "chapterId": 1,
+      "lastPage": 1,
+      "updatedAt": "2026-06-01T12:06:32.392Z",
+      "id": 3
+    },
+    {
+      "userId": 6,
+      "comicId": 5,
+      "chapterId": 11,
+      "lastPage": 1,
+      "updatedAt": "2026-06-01T12:06:41.608Z",
+      "id": 4
+    },
+    {
+      "userId": 6,
+      "comicId": 6,
+      "chapterId": 14,
+      "lastPage": 1,
+      "updatedAt": "2026-06-01T12:36:45.586Z",
+      "id": 5
     }
   ],
   "genres": [
@@ -248,13 +539,13 @@
   "purchases": [],
   "comments": [
     {
-      "comicId": 1,
-      "userId": 5,
-      "userDisplayName": "user",
-      "userAvatar": "https://cdn.britannica.com/77/81277-050-2A6A35B2/Adelie-penguin.jpg",
-      "content": "Truyện hay, nhân vật chính cuốn hút",
-      "createdAt": "2026-06-01T09:55:06.694Z",
-      "id": 1
+      "comicId": 3,
+      "userId": 6,
+      "userDisplayName": "Quản Trị Viên",
+      "userAvatar": "https://scontent.fhan15-2.fna.fbcdn.net/v/t39.30808-1/509007504_708951821747507_5276150440487953485_n.jpg?stp=cp0_dst-jpg_s60x60_tt6&_nc_cat=100&ccb=1-7&_nc_sid=e99d92&_nc_eui2=AeGKvxRNQKuoz9XKtYpFPzwY-0-b_7KfLdP7T5v_sp8t04ViD2Y_-4S7xM-dRK4u4cJNa8xCZktgbB0J_rCHaYHc&_nc_ohc=PSN5sxTsTrgQ7kNvwF1-63U&_nc_oc=Adput4OKCrWR2_8GaBDFUXvi6uEgWZ3TRu0Y062m9slrgRgTyu1SqkD4wo_rJZj0A1fDx13rRBUqHb5nuCesztjB&_nc_zt=24&_nc_ht=scontent.fhan15-2.fna&_nc_gid=o_iBmqJJ9tYXYokVVWf9zw&_nc_ss=7b2a8&oh=00_Af_ybQtakI1Neq5hEvGgftNiDEgshfTc9ZceBOXbS2Hd9w&oe=6A235106",
+      "content": "mid piece thật sự overated. có thể nói là rác phẩm",
+      "createdAt": "2026-06-01T12:02:18.928Z",
+      "id": 2
     }
   ]
 }

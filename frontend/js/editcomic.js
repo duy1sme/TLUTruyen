@@ -385,11 +385,28 @@ function _bindZone(zone, input, callback) {
   ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(e => zone.addEventListener(e, ev => { ev.preventDefault(); ev.stopPropagation(); }));
   zone.addEventListener('dragenter', () => zone.classList.add('dragover'));
   zone.addEventListener('dragleave', () => zone.classList.remove('dragover'));
+  
+  const sortAndSetFiles = (fileList) => {
+    const dt = new DataTransfer();
+    const files = Array.from(fileList);
+    // Sort files naturally by name (e.g. 1.jpg, 2.jpg, 10.jpg)
+    files.sort((a, b) => a.name.localeCompare(b.name, undefined, {numeric: true}));
+    files.forEach(f => dt.items.add(f));
+    input.files = dt.files;
+    callback(dt.files);
+  };
+
   zone.addEventListener('drop', (e) => {
     zone.classList.remove('dragover');
-    if (e.dataTransfer.files.length > 0) { input.files = e.dataTransfer.files; callback(e.dataTransfer.files); }
+    if (e.dataTransfer.files.length > 0) { 
+      sortAndSetFiles(e.dataTransfer.files);
+    }
   });
-  input.addEventListener('change', () => { if (input.files.length > 0) callback(input.files); });
+  input.addEventListener('change', () => { 
+    if (input.files.length > 0) {
+      sortAndSetFiles(input.files);
+    } 
+  });
 }
 
 /** @private */
@@ -415,12 +432,20 @@ function _renderPagesPreview(files) {
   document.getElementById('ch-pages-count').textContent = imageFiles.length;
 
   imageFiles.forEach((file, index) => {
+    // Create the container synchronously to preserve order
+    const item = document.createElement('div');
+    item.className = 'upload-preview-grid-item';
+    item.innerHTML = `<div class="upload-preview-grid-item-overlay"><div class="upload-preview-grid-item-number">${index + 1}</div></div>`;
+    grid.appendChild(item);
+
+    // Create image element
+    const img = document.createElement('img');
+    img.className = 'upload-preview-grid-item-img';
+
     const reader = new FileReader();
     reader.onload = (e) => {
-      const item = document.createElement('div');
-      item.className = 'upload-preview-grid-item';
-      item.innerHTML = `<img src="${e.target.result}" class="upload-preview-grid-item-img"><div class="upload-preview-grid-item-overlay"><div class="upload-preview-grid-item-number">${index + 1}</div></div>`;
-      grid.appendChild(item);
+      img.src = e.target.result;
+      item.insertBefore(img, item.firstChild);
     };
     reader.readAsDataURL(file);
   });
